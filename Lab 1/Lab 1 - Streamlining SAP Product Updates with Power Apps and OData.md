@@ -168,8 +168,7 @@ alt="A close-up of a white background Description automatically generated" />
 style="width:6.26806in;height:2.97986in" />
 
 3.  Under the "Let's get started" section, you will see a text box
-    labelled **Enter your Microsoft 365 admin credential or Work-School
-    Email Id**.
+    labelled **Enter your Microsoft Admin Tenant ID**.
 
 4.  After entering your **ID**, check the agreement box to agree to the
     terms and conditions. 
