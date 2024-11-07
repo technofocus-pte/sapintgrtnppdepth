@@ -40,7 +40,7 @@ connector to automate the retrieval and updating of product data in SAP.
 
 1.  Log into the SAP website at +++https://www.sap.com+++ and click on the
     admin button.
-    Test data
+    
     ![](./media/image2.png)
 
 
