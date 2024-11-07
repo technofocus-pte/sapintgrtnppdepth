@@ -1,4 +1,4 @@
-# Install and set up the SAP Setup Assistant
+# Lab 3 Install and set up the SAP Setup Assistant
 
 **Objective:** This lab is designed to guide participants through the
 process of setting up and configuring the SAP Setup Assistant within the
