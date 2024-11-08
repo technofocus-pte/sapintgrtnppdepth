@@ -641,7 +641,7 @@ settings.
 
 10. Select the submit button, enter the given below formula as OnSelect.
 
-+++Patch(Carts,Defaults(Carts),{'Product Name':*CartProdName*.Text,'Product Price':*CartProdPrice*.Text,'Customer Name':*NameInput*.Text,'Customer Contact':*PhoneInput*.Text,'Customer Address':*AddressInput*.Text})+++
+    +++Patch(Carts,Defaults(Carts),{'Product Name':*CartProdName*.Text,'Product Price':*CartProdPrice*.Text,'Customer Name':*NameInput*.Text,'Customer Contact':*PhoneInput*.Text,'Customer Address':*AddressInput*.Text})+++
 
     ![](./media/image90.png)
 
