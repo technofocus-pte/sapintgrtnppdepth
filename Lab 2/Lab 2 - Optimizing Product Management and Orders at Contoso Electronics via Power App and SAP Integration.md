@@ -266,8 +266,8 @@ settings.
 
 
 3.  Go to Product Gallery, By clicking on (…) of each rename **Body** as
-    **ProdDescription**, **Subtitle** as **ProdPrice** **and Title** as
-    **ProdName.**
+    +++**ProdDescription**+++, **Subtitle** as +++**ProdPrice**+++ and **Title** as
+    +++**ProdName**+++
 
     ![](./media/image36.png)
 
