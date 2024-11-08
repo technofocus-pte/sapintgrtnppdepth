@@ -222,8 +222,8 @@ settings.
     ![](./media/image28.png)
 
 
-2.  In the Search bar of Add data search for SAP OData and then select
-    +++**OData Connection**+++.
+2.  In the Search bar of Add data search for **SAP OData** and then select
+    **SAP OData**.
 
     ![](./media/image29.png)
 
