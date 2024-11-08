@@ -81,7 +81,7 @@ efficiency and customer experience.
     ![](./media/image9.png)
 
 
-4.  Enter the following details in the SAP OData configuration window.
+4.  Enter the following details in the SAP OData configuration window and then click on **Create**.
 
     | Authentication Type | Basic |
     |----|----|
@@ -171,11 +171,11 @@ settings.
 
     2.  **Font Size**: +++30+++
 
-    3.  **Text Alignment**: +++Center+++
+    3.  **Text Alignment**: Center
 
     4.  **Position**: X – 0, Y – 0
 
-    5.  **Width**: +++1400+++, **Height**: +++100+++
+    5.  **Size** : **Width** +++1400+++, **Height** +++100+++
 
     6.  **Text Colour**: White
 
@@ -185,7 +185,7 @@ settings.
 
 
 11. Then go to Tree view and select screen. Click on **Insert** from top
-    bar. Search and select **HeaderLabel** to use the new component on
+    bar. Search and select +++**HeaderLabel**+++ to use the new component on
     the screen.
 
     ![](./media/image23.png)
@@ -197,19 +197,19 @@ settings.
     ![](./media/image24.png)
 
 
-13. Go to **Insert** from top bar and search and select **Text Input**.
+13. Go to **Insert** from top bar and search and select +++**Text Input**+++.
 
     ![](./media/image25.png)
 
 
-14. Rename the **Text Input** as **SearchBar** and Adjust the location
+14. Rename the **Text Input** as +++**SearchBar**+++ and Adjust the location
     and size of Text Input as show in Image.
 
     ![](./media/image26.png)
 
 
 15. Go to **SearchBar** input text and then go to **Properties** set the
-    default value of search bar as **Notebook.** With the help of this
+    default value of search bar as +++**Notebook**+++ , With the help of this
     bar user can search product by **Category**.
 
     ![](./media/image27.png)
@@ -223,7 +223,7 @@ settings.
 
 
 2.  In the Search bar of Add data search for SAP OData and then select
-    **OData Connection**.
+    +++**OData Connection**+++.
 
     ![](./media/image29.png)
 
@@ -253,14 +253,14 @@ settings.
 
 ### Task 3: Configure Product Gallery Screen
 
-1.  Rename the gallery name as +++**Product Gallery**+++ and adjust the
+1.  Go to Tree view --> Screen, rename the Gallery1 name as +++**Product Gallery**+++ and adjust the
     gallery on the canvas as shown in image.
 
     ![](./media/image34.png)
 
 
 2.  Click on the **Product Gallery** and go to **Properties** of it,
-    configure the layout as Title, Subtitle, Body.
+    configure the layout as **Title, Subtitle, Body**.
 
     ![](./media/image35.png)
 
@@ -272,13 +272,14 @@ settings.
     ![](./media/image36.png)
 
 
-4.  Go to **properties** of Product Gallery and click on 7 Selected,
+4.  Go to **properties** of Product Gallery and click on **7 Selected**,
     configure the selection as per given below:
 
     | ProdDescription | Description |
     |-----------------|-------------|
     | ProdName        | Name        |
     | ProdPrice       | Price       |
+    | ProdDescription       | Description       |
 
     ![](./media/image37.png)
 
@@ -295,7 +296,7 @@ settings.
 
     | ProdPrice       | +++"Price  :   " & Text(Value(ThisItem.Price),"\$#,###.##")+++ |
     |-----------------|----------------------------------------------------------|
-    | ProdDescription | +++"Description : " & ThisItem.Description+++                  |
+    | **ProdDescription** | +++**"Description : " & ThisItem.Description**+++                  |
 
     ![](./media/image39.png)
 
@@ -327,8 +328,8 @@ settings.
 
 
 10. Place the button at appropriate position with the help of drag and
-    drop. And in the button **Properties** **Text** field enter **Add to
-    cart**.
+    drop. And in the button **Properties** **Text** field enter +++**Add to
+    cart**+++.
 
     ![](./media/image45.png)
 
@@ -348,7 +349,7 @@ settings.
 
 
 13. Select **Product Gallery** and then go to **Insert** Seach and
-    select a **Button**.
+    select a +++**Button**+++.
 
     ![](./media/image48.png)
 
@@ -359,11 +360,12 @@ settings.
     |-------------|--------|
     | Text Colour | Blue   |
     | Fill Colour | White  |
+    | Text | Reload  |
 
     ![](./media/image49.png)
 
 
-15. Click on **Reload** button and Select **OnSelect** and add the below
+16. Click on **Reload** button and Select **OnSelect** and add the below
     given formula into the formula bar.
 
     +++Reset(*SearchBar*)+++
@@ -390,29 +392,25 @@ settings.
 
 
 4.  Click on the down arrow sign of the first column and then select the
-    Edit column option. Rename the Display name as +++**Product Name**+++.
+    Edit column option. Rename the Display name as +++**ProductName**+++.
     Then click on the update button.
 
     ![](./media/image54.png)
 
-5.  Select **+ New column** and enter the display name as +++**Product
-    Price**+++, after entering the name click on **Save**.
+5.  Select **+ New column** and enter the display name as +++**ProductPrice**+++, after entering the name click on **Save**.
 
     ![](./media/image55.png)
 
-6.  Select **+ New column** and enter the display name as +++**Customer
-    Name**+++, After entering the name click on **Save**.
+6.  Select **+ New column** and enter the display name as +++**CustomerName**+++, After entering the name click on **Save**.
 
     ![](./media/image56.png)
 
 
-7.  Select **+ New column** and enter the display name as +++**Customer
-    Address**+++, After entering the name click on **Save**.
+7.  Select **+ New column** and enter the display name as +++**CustomerAddress**+++, After entering the name click on **Save**.
 
     ![](./media/image57.png)
 
-8.  Select **+ New column** and enter the display name as +++**Customer
-    Contact**+++, After entering the name click on **Save**.
+8.  Select **+ New column** and enter the display name as +++**CustomerContact**+++, After entering the name click on **Save**.
 
     ![](./media/image58.png)
 
@@ -445,7 +443,7 @@ settings.
 
 
 4.  Select **Order Screen**, go to **Insert** then search and select
-    ***Vertical Gallery**+++ .
+    +++**Vertical Gallery**+++ .
 
     ![](./media/image63.png)
 
@@ -465,7 +463,7 @@ settings.
 
     ![](./media/image65.png)
 
-7.  Click on ***Order Summary** Screen, got to properties. Change the
+7.  Click on **Order Summary** Screen, got to properties. Change the
     **colour** **fill** same as the previous screen.
 
     ![](./media/image66.png)
@@ -490,11 +488,12 @@ settings.
     |-------------|------------|
     | Text colour | Blue       |
     | Fill Colour | White      |
+    | Text | My Cart      |
 
     ![](./media/image69.png)
 
 
-11. Click on the **MyCart** button and enter the below given formula in
+12. Click on the **MyCart** button and enter the below given formula in
     formula bar as **OnSelect**.
 
     +++Navigate(*'Order Summary'*)+++
@@ -502,63 +501,64 @@ settings.
     ![](./media/image70.png)
 
 
-12. Click on the **Order Summary**, Go to Insert, search and select
+13. Click on the **Order Summary**, Go to Insert, search and select
     +++**Button**+++ .
 
     ![](./media/image71.png)
 
-13. **Rename** the button as **Back** and place it at appropriate place.
+14. **Rename** the button as +++**Back**+++ and place it at appropriate place.
     Change the **properties** of button as given below.
 
     | Text        | Back  |
     |-------------|-------|
     | Text Colour | Blue  |
     | Fill Colour | White |
+    | Text    | Back |
 
     ![](./media/image72.png)
 
 
-14. Select **Back** button and enter the below given formula as
+16. Select **Back** button and enter the below given formula as
     **OnSelect**.
 
-    > Navigate(*'Product List'*)
+    +++Navigate(*'Product List'*)+++
 
     ![](./media/image73.png)
 
 
-15. Click on **OrderGallery** and go to properties of the gallery. Click
-    on the 7 selected option and select the fields as given below.
+17. Click on **OrderGallery** and go to properties of the gallery. Click
+    on the **7 selected** option and select the fields as given below.
 
     ![](./media/image74.png)
 
 
-16. Go to **OrderGallery,** select Body and rename the body as
-    **CartProDes**. Then Enter the given below **formula** in formula
+18. Go to **OrderGallery,** select Body and rename the body as
+    +++**CartProDes**+++. Then Enter the given below **formula** in formula
     bar as Text.
 
-    > "Description  :  " & ThisItem.Describe
+    +++"Description  :  " & ThisItem.Describe+++
 
     ![](./media/image75.png)
 
 
-17. Repeat the process for **Subtitle** of **OrderGallery**, rename as
-    **CartProdPrice** and enter the **formula** as given below.
+19. Repeat the process for **Subtitle** of **OrderGallery**, rename as
+    +++**CartProdPrice**+++ and enter the **formula** as given below.
 
-    > "Price  :   " & Text(Value(ThisItem.Price),"\$#,###.##")
+    +++"Price  :   " & Text(Value(ThisItem.Price),"\$#,###.##")+++
 
     ![](./media/image76.png)
 
 
-18. Repeat the same process for **Title**, rename as **CartProdName**
+20. Repeat the same process for **Title**, rename as +++**CartProdName**+++
     and enter the **formula** as given below.
 
-    > "Product Name :  " & ThisItem.Name
+    +++"Product Name :  " & ThisItem.Name+++
 
     ![](./media/image77.png)
 
 
-19. Select **OrderGallery**, click on the **pencil** icon in the gallery
-    canvas field, go to **Insert**. Search and select **Cancel** Icon.
+21. Select **OrderGallery**, click on the **pencil** icon in the gallery
+    canvas field, go to **Insert**. Search and select +++**Cancel**+++ Icon.
 
     ![](./media/image78.png)
 
@@ -566,10 +566,10 @@ settings.
     ![](./media/image79.png)
 
 
-20. Select and place the **Cancel** Icon at appropriate place as shown
+22. Select and place the **Cancel** Icon at appropriate place as shown
     in image. Enter the formula given below as **OnSelect**.
 
-    > Remove(Collection,ThisItem)
+    +++Remove(Collection,ThisItem)+++
 
     ![](./media/image80.png)
 
@@ -577,8 +577,8 @@ settings.
 
 ### Task 6: Add Customer Information section
 
-1.  Click on **Order Summary**, Go to Insert. Search and Select **Text
-    Label**.
+1.  Click on **Order Summary**, Go to Insert. Search and Select +++**Text
+    Label**+++.
 
     ![](./media/image81.png)
 
@@ -589,57 +589,55 @@ settings.
     ![](./media/image82.png)
 
 
-3.  Double click on each label one by one and enter the text as **Full
-    Name, Phone Number, Address**. The final output show as given below
+3.  Double click on each label one by one and enter the text as +++Full
+    Name+++, +++Phone Number+++, +++Address+++. The final output show as given below
     image. Readjust the label if required.
 
     ![](./media/image83.png)
 
 
-4.  Select **Order Summary**, go to Insert. Search and select for **Text
-    Input.**
+4.  Select **Order Summary**, go to Insert. Search and select for +++**Text
+    Input**+++ .
 
     ![](./media/image84.png)
 
-5.  Rename the Input Text as **NameInput** and Place the Input Text just
+5.  Rename the Input Text as +++**NameInput**+++ and Place the Input Text just
     below the **Full Name**. Go to **properties** of the **NameInput**
     and Remove **Text** (Text Input) from **Default**
 
     ![](./media/image85.png)
 
 6.  Repeat the process select the **Text Label** Rename as
-    **PhoneInput** and place at below the **Phone Number**. From
+    +++**PhoneInput**+++ and place at below the **Phone Number**. From
     properties remove **Default** text.
 
     ![](./media/image86.png)
 
 
 7.  Repeat the process select the **Text Label** Rename as
-    **AddressInput** and place at below the Address. From properties
+    +++**AddressInput**+++ and place at below the Address. From properties
     remove **Default** text.
 
     ![](./media/image87.png)
 
 
 8.  Select **Order Summary**, go to **Insert**. Search and Select a
-    **Button**.
+    +++**Button**+++.
 
     ![](./media/image88.png)
 
 
-9.  Click on the button and then select (…) and rename it as **Submit.**
+9.  Click on the button and then select (…) and rename it as +++**Submit**+++ .
     Place the **Submit** button just below the **AddressInput**. Go to
     **Properties** of the **Submit** button, In the **Text** enter
-    **Submit** as Text.
+    +++**Submit**+++ as Text.
 
     ![](./media/image89.png)
 
 
 10. Select the submit button, enter the given below formula as OnSelect.
 
-    > Patch(Carts,Defaults(Carts),{'Product Name':*CartProdName*.Text,'Product
-Price':*CartProdPrice*.Text,'Customer Name':*NameInput*.Text,'Customer
-Contact':*PhoneInput*.Text,'Customer Address':*AddressInput*.Text})
++++Patch(Carts,Defaults(Carts),{'ProductName':*CartProdName*.Text,'ProductPrice':*CartProdPrice*.Text,'CustomerName':*NameInput*.Text,'CustomerContact':*PhoneInput*.Text,'CustomerAddress':*AddressInput*.Text})+++
 
     ![](./media/image90.png)
 
@@ -652,26 +650,26 @@ Contact':*PhoneInput*.Text,'Customer Address':*AddressInput*.Text})
 
 ## Exercise 3: Test Contoso Product App
 
-1.  From the top bar click on the Play button to start testing.
+1.  From the top bar click on the **Play** button to start testing.
 
     ![](./media/image92.png)
 
 
-2.  Search **Camcorder** In the search field, and then click on the
+2.  Search +++**Camcorder**+++ In the search field, and then click on the
     **Add to cart** Button.
 
     ![](./media/image93.png)
 
 
-3.  Search **Notebook** in the search field and choose a notebook and
+3.  Search +++**Notebook**+++ in the search field and choose a notebook and
     click on the **Add to cart** button. After that click on **Go to
     Cart** Button.
 
     ![](./media/image94.png)
 
 
-4.  Enter the Full Name Phone Number and Address and then click on
-    submit. The order is placed for the products.
+4.  Enter the **Full Name Phone Number and Address** and then click on
+    **submit**. The order is placed for the products.
 
     ![](./media/image95.png)
 
