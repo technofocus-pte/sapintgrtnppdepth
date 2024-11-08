@@ -433,11 +433,7 @@ access the SAP related pages.
     ![](./media/image61.png)
 
 
-13. For **x-ms-cookie-header,** click on the Expression tab and then paste the below content.
-
-    +++replace(outputs('Get_product')['headers']['Set-Cookie],',',';')+++
-
-    +++replace(outputs('Get_product')['headers']['Set-Cookie'],',',';')+++
+13. For **x-ms-cookie-header,** click on the Expression tab and then paste the expresion +++replace(outputs('Get_product')['headers']['Set-Cookie'],',',';')+++ .
 
 
     ![](./media/image62.png)
