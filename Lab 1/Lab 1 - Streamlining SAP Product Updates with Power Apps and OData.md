@@ -38,30 +38,30 @@ connector to automate the retrieval and updating of product data in SAP.
 
 ### Task 1: Create an SAP Account
 
-1.  Log into the SAP website at +++https://www.sap.com+++ and click on the
+1.  Open Microsoft edge and navigate to SAP website at +++https://www.sap.com+++ and click on the
     admin button.
     
     ![](./media/image2.png)
 
 
-3.  Click on **Create your SAP account.**
+2.  Click on **Create your SAP account.**
 
     ![](./media/image3.png)
 
 
-4.  Fill in your details, select the checkbox for accepting the terms
-    and conditions and click on **Submit**.
+3.  Fill in your details, select the checkbox for accepting the terms
+    and conditions and click on **Submit**. in the place of business e-mail address enter admint tenant Id.
 
     ![](./media/image4.png)
 
 
-5.  You will get the **Check your email and finalize your account**
+4.  You will get the **Check your email and finalize your account**
     screen.
 
     ![](./media/image5.png)
 
 
-6.  Open the email from the sender **SAP Universal ID - Notification**
+5.  Open new tab navigate to +++https://www.outlook.com/+++ and sign in, Open the email from the sender **SAP Universal ID - Notification**
     in your registered mailbox and click on **Click to activate your
     account.**
 
@@ -87,8 +87,8 @@ access the SAP related pages.
 
 ### Task 2: Create an account for Gateway Demo System
 
-1.  Open <https://register.sapdevcenter.com/SUPSignForms/> from your
-    browser. Enter your email id (the one that you provided during the
+1.  Open new tab and navigate to +++https://register.sapdevcenter.com/SUPSignForms/+++ from your
+    browser. Enter your admin id (the one that you provided during the
     SAP id creation) and click on **Continue**.
 
     ![](./media/image9.png)
@@ -107,18 +107,19 @@ access the SAP related pages.
 4.  You will be taken to the SAP Gateway Demo Server page with the login
     details to the system.
 
+    > Note: Some time it automatically login and navigate directly to SAP gateway demo server page.
+
 5.  Select the check box to accept the Terms and conditions and then
     click on **Register**.
 
     ![](./media/image12.png)
 
 
-6.  Click on Show password to view the password.
+6.  Click on **Show password** to view and save the password
 
     ![](./media/image13.png)
 
-7.  Check the mailbox and open the mail from <devcenter@sap.com>. Open
-    the Login to the SAP Gateway WebGUI link from the email.
+7.  Open outlook window, Check the mailbox and open the mail from <devcenter@sap.com>. open the Login to the **SAP Gateway WebGUI link** from the email.
 
     ![](./media/image14.png)
 
@@ -156,18 +157,16 @@ the login credentials for your SAP Demo system.
 
  
 
-1.  Open your web browser and go to the
-    <https://powerapps.microsoft.com/free/> page. 
+1.  Open your web browser and navigate to the
+    +++https://powerapps.microsoft.com/free/+++ page. 
 
-2.  On this page, locate the **Try free** button and click on it to
-    begin the sign-up process. 
+2.  On this page, locate the **Try free** button and click on it to begin the sign-up process. 
 
     ![](./media/image20.png)
 
 
 3.  Under the "Let's get started" section, you will see a text box
-    labelled **Enter your Microsoft 365 admin credential or Work-School
-    Email Id**.
+    labelled **Enter your admin tenant ID**.
 
 4.  After entering your **ID**, check the agreement box to agree to the
     terms and conditions. 
@@ -221,7 +220,7 @@ the login credentials for your SAP Demo system.
     ![](./media/image26.png)
 
 
-5.  Select the following details in the Import from Github pane.
+5.  Select the following details in the Import from Github pane and then click **Continue**.
 
     1.  Connector Type - Custom
 
@@ -277,36 +276,26 @@ the login credentials for your SAP Demo system.
 
 ### Task 1: Create Canvas Power App
 
-1.  From the Power Apps home page, select **Apps** from the left pane
-    and select **Import apps.**
+1.  From the Power Apps home page, select **Apps** from the left pane and select **Import apps**.
 
     ![](./media/image35.png)
 
-
-2.  Download power apps with the help of GitHub link
-    <https://github.com/microsoft/PowerPlatformConnectors/blob/master/custom-connectors/SAP-ODATA-Demo/SAP%20EPM%20Products%20Demo%20Starter.msapp>
-    .
-
-    ![](./media/image36.png)
-
-
-3.  In Import app click on the **From File (.msapp)**, browse app file
-    and import the app.
+2.  In Import app click on the **From File (.msapp)**, browse app file name **SAP EPM Products Demo Starter.msapp** from **C:\Lab Files** and import the app.
 
     ![](./media/image37.png)
 
-4.  The imported app looks like the given below, the app has multiple errors since we have not connected to SAP through ODATA yet. 
+3.  The imported app looks like the given below, the app has multiple errors since we have not connected to SAP through ODATA yet. 
 
     ![](./media/image38.png)
 
 
-5.  From the left pane, select **Data** then click on **+ Add data**.
-    Search for OData and then select **SAP-ODATA-Demo** from it.
+4.  If Promted Welcome window click on skip and from the left pane, select **Data** then click on **+ Add data**.
+    Search for **OData** and then select **SAP-ODATA-Demo** from it.
 
     ![](./media/image39.png)
 
 
-6.  Provide the login credentials of your Demo Gateway system. Click on
+5.  Provide the login credentials of your Demo Gateway system. click on connect and then Click on
     **Got it** under the Premium dialog.
 
     ![](./media/image40.png)
@@ -315,42 +304,41 @@ the login credentials for your SAP Demo system.
     ![](./media/image41.png)
 
 
-7.  Once the connection is made, all the errors except for one will
-    have been resolved. Click on **Gallery3** from Tree view. Select
+6.  Once the connection is made, all the errors except for one will
+    have been resolved. Go to tree view and click on **Gallery3** from Tree view. Select
     **Advanced** tab from the **Gallery** Pane.
 
     ![](./media/image42.png)
 
 
-8.  Select the formula under **DATA -\> Items**. Replace the formula
-    with the below one.
+7.  Select the formula under **DATA -\> Items**. Replace the formula with the below one.
 
-    > SortByColumns(zProducts, "Name")
++++SortByColumns(zProducts, "Name")+++
 
 
 
     ![](./media/image43.png)
 
 
-9.  Save the app and click on the **Play** button.
+8.  Save the app and click on the **Play** button.
 
     ![](./media/image44.png)
 
 
-10. Click on the **Refresh icon** of the Products on the app. Here, we can
+9. Click on the **Refresh icon** of the Products on the app. Here, we can
     find the list of all the products from the demo SAP System, that we
     browsed through the Fiori launchpad.
 
     ![](./media/image45.png)
 
 
-11. Click on any item to view their values on the right-side pane. The
+10. Click on any item to view their values on the right-side pane. The
     app is now without any errors.
 
     ![](./media/image46.png)
 
 
-12. Click on **10” Portable DVD player** from the Products list. Do some
+11. Click on **10” Portable DVD player** from the Products list. Do some
     update to the Price and click on the Tick mark. When clicked, we get
     an error message,
 
@@ -359,7 +347,7 @@ the login credentials for your SAP Demo system.
     ![](./media/image47.png)
 
 
-13. From the top right corner close the app.
+12. From the top right corner close the app.
 
     ![](./media/image48.png)
 
@@ -401,7 +389,7 @@ the login credentials for your SAP Demo system.
     ![](./media/image53.png)
 
 
-5.  Rename the flow as **UpdateProduct** and then click on **+ New
+5.  From the top left corner, rename the flow as +++**UpdateProduct**+++ and then click on **+ New
     step**.
 
     ![](./media/image54.png)
@@ -413,7 +401,7 @@ the login credentials for your SAP Demo system.
     ![](./media/image55.png)
 
 
-7.  Enter the SAP ES5 Username and Password and click on **Create**.
+7.  If promted, enter the SAP ES5 Username and Password and click on **Create**.
 
     ![](./media/image56.png)
 
@@ -423,20 +411,20 @@ the login credentials for your SAP Demo system.
     ![](./media/image57.png)
 
 
-9.  Under Get product, type **HT-2000** in the ID field and select
+9.  Under Get product, type +++**HT-2000**+++ in the ID field and select
     **fetch** under x-csrf-token and then select **+ New step**.
 
     ![](./media/image58.png)
 
 
-10. In the New step, select **Customer \> SAP-O-DATA** and then select
+10. Then click on the + new stepfrom bottom, In the New step, select **Customer --> SAP-O-DATA** and then select
     **Update product**.
 
     ![](./media/image59.png)
 
 
 11. Once added, select the **Product ID** field and select the **Product
-    ID** that we added under the trigger, Power Apps(V2).
+    ID** as dynamic content that we added under the trigger, Power Apps(V2).
 
     ![](./media/image60.png)
 
@@ -489,7 +477,7 @@ the login credentials for your SAP Demo system.
     option, In Advanced option enter the below given formula in
     OnSelect.
 
-    > UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text
++++UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text)+++
 
 
 
