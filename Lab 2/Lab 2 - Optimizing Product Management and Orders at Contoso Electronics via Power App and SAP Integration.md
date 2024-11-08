@@ -659,20 +659,14 @@ settings.
     ![](./media/image92.png)
 
 
-2.  Search +++**Camcorder**+++ In the search field, and then click on the
-    **Add to cart** Button.
-
-    ![](./media/image93.png)
-
-
-3.  Search +++**Notebook**+++ in the search field and choose a notebook and
+.  Search +++**Notebook**+++ in the search field and choose a notebook and
     click on the **Add to cart** button. After that click on **Go to
     Cart** Button.
 
     ![](./media/image94.png)
 
 
-4.  Enter the **Full Name Phone Number and Address** and then click on
+3.  Enter the **Full Name Phone Number and Address** and then click on
     **submit**. The order is placed for the products.
 
     ![](./media/image95.png)
