@@ -133,8 +133,7 @@ access the SAP related pages.
 
     ![](./media/image16.png)
 
-    > **Note:** Make a note of this **User id** and **Password**. This will be
-the login credentials for your SAP Demo system.
+    > **Note:** Make a note of this **User ID** and **Password**. This will be the login credentials for your SAP Demo system.
 
 10. Click on **Continue**.
 
@@ -222,11 +221,11 @@ the login credentials for your SAP Demo system.
 
 5.  Select the following details in the Import from Github pane and then click **Continue**.
 
-    1.  Connector Type - Custom
+    1.  **Connector Type** - Custom
 
-    2.  Branch – dev
+    2.  **Branch** – dev
 
-    3.  Connector – SAP-ODATA-Demo
+    3.  **Connector** – SAP-ODATA-Demo
 
     ![](./media/image27.png)
 
@@ -313,7 +312,7 @@ the login credentials for your SAP Demo system.
 
 7.  Select the formula under **DATA -\> Items**. Replace the formula with the below one.
 
-+++SortByColumns(zProducts, "Name")+++
+    +++SortByColumns(zProducts, "Name")+++
 
 
 
@@ -417,7 +416,7 @@ the login credentials for your SAP Demo system.
     ![](./media/image58.png)
 
 
-10. Then click on the + new stepfrom bottom, In the New step, select **Customer --> SAP-O-DATA** and then select
+10. Then click on the **+ New step**, In the New step, select **Customer --> SAP-O-DATA** and then select
     **Update product**.
 
     ![](./media/image59.png)
@@ -467,17 +466,14 @@ the login credentials for your SAP Demo system.
 
 ### Task 3: Invoke the flow
 
-1.  Back in the Power Apps screen, you will see that the flow is now
-    added to the app.
+1.  Back in the Power Apps screen, you will see that the flow is now added to the app.
 
     ![](./media/image66.png)
 
 
-2.  Got to components click on the tick button and go to Advanced
-    option, In Advanced option enter the below given formula in
-    OnSelect.
+2.  Got to components click on the tick button and go to Advanced option, In Advanced option enter the below given formula in OnSelect.
 
-+++UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text)+++
+    +++UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text)+++
 
 
 
@@ -509,17 +505,15 @@ the right-side pane of the app to **349.99** from 449.99. Click on the
 
 ### Task 2: Check the flow and updates
 
-1.  Go to the Power Automate page at <https://make.powerautomate.com/>
+1.  Go to the Power Automate page at +++https://make.powerautomate.com/+++. Login with Admin tenant and select Dev one enviornment from top bar.
 
-2.  Click on **My flows** and select **UpdateProducts**. Under the
-    28-day run history, you can find the flow that you just triggered
-    and find that the flow has succeeded.
+2.  Click on **My flows** and select **UpdateProducts**. Under the 28-day run history, you can find the flow that you just triggered and find that the flow has succeeded.
 
     ![](./media/image71.png)
 
 
 3.  Open the link of the Fiori launchpad
-    <https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html#Shell-home>
+    +++https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html#Shell-home+++
     from the browser. Select the **Manage Products** tile.
 
     ![](./media/image72.png)
