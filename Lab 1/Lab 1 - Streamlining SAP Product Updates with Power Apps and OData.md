@@ -468,7 +468,7 @@ access the SAP related pages.
     ![](./media/image66.png)
 
 
-2.  Got to components click on the tick button and go to Advanced option, In Advanced option enter the below given formula in OnSelect.
+2.  Navigate to Tree view, Go to components select **UpdateButton** button and go to Properties --> Advanced option, In Advanced option enter the below given formula in **OnSelect**.
 
     +++UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text)+++
 
@@ -502,7 +502,7 @@ the right-side pane of the app to **349.99** from 449.99. Click on the
 
 ### Task 2: Check the flow and updates
 
-1.  Go to the Power Automate page at +++https://make.powerautomate.com/+++. Login with Admin tenant and select Dev one enviornment from top bar.
+1.  Go to the Power Automate page at +++https://make.powerautomate.com/+++. Login with Admin tenant and select **Dev one** enviornment from top bar.
 
 2.  Click on **My flows** and select **UpdateProducts**. Under the 28-day run history, you can find the flow that you just triggered and find that the flow has succeeded.
 
