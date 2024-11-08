@@ -529,10 +529,14 @@ settings.
 17. Click on **OrderGallery** and go to properties of the gallery. Click
     on the **7 selected** option and select the fields as given below.
 
+    - Body2 : Describe
+    - Subtitle4: Price
+    - Title4: Name
+
     ![](./media/image74.png)
 
 
-18. Go to **OrderGallery,** select Body and rename the body as
+18. Go to **OrderGallery,** select **Body2** and rename the body as
     +++**CartProDes**+++. Then Enter the given below **formula** in formula
     bar as Text.
 
@@ -541,7 +545,7 @@ settings.
     ![](./media/image75.png)
 
 
-19. Repeat the process for **Subtitle** of **OrderGallery**, rename as
+19. Repeat the process for **Subtitle4** of **OrderGallery**, rename as
     +++**CartProdPrice**+++ and enter the **formula** as given below.
 
     +++"Price  :   " & Text(Value(ThisItem.Price),"\$#,###.##")+++
@@ -549,7 +553,7 @@ settings.
     ![](./media/image76.png)
 
 
-20. Repeat the same process for **Title**, rename as +++**CartProdName**+++
+20. Repeat the same process for **Title4**, rename as +++**CartProdName**+++
     and enter the **formula** as given below.
 
     +++"Product Name :  " & ThisItem.Name+++
