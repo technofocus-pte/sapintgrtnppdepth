@@ -435,6 +435,8 @@ access the SAP related pages.
 
 13. For **x-ms-cookie-header,** click on the Expression tab and then paste the below content.
 
+    +++replace(outputs('Get_product')['headers']['Set-Cookie],',',';')+++
+
     +++replace(outputs('Get_product')['headers']['Set-Cookie'],',',';')+++
 
 
