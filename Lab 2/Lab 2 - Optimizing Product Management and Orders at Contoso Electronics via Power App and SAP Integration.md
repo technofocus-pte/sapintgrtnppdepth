@@ -488,7 +488,7 @@ settings.
     |-------------|------------|
     | Text colour | Blue       |
     | Fill Colour | White      |
-    | Text | My Cart      |
+    | Text | Go to Cart      |
 
     ![](./media/image69.png)
 
