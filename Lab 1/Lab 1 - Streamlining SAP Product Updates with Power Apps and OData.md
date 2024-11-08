@@ -377,7 +377,7 @@ access the SAP related pages.
 
     Similarly, add the following as in the screenshot below.
 
-    | **Property** | **Data Type** |
+    | **Input** | **Data Type** |
     |--------------|---------------|
     | +++Name+++         | Text          |
     | +++Description+++  | Text          |
@@ -436,7 +436,7 @@ access the SAP related pages.
 13. For **x-ms-cookie-header,** click on the Expression tab and then
     paste the below content.
 
-    > replace(outputs('Get_product')\['headers'\]\['Set-Cookie'\],',',';')
+    +++replace(outputs('Get_product')['headers']['Set-Cookie'],',',';')+++
 
 
     ![](./media/image62.png)
