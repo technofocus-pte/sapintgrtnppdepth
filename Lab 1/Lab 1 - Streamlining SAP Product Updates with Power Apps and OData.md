@@ -288,7 +288,7 @@ access the SAP related pages.
     ![](./media/image38.png)
 
 
-4.  If Promted Welcome window click on skip and from the left pane, select **Data** then click on **+ Add data**.
+4.  If Promted Welcome window click on **Skip** and from the left pane, select **Data** then click on **+ Add data**.
     Search for **OData** and then select **SAP-ODATA-Demo** from it.
 
     ![](./media/image39.png)
@@ -304,8 +304,8 @@ access the SAP related pages.
 
 
 6.  Once the connection is made, all the errors except for one will
-    have been resolved. Go to tree view and click on **Gallery3** from Tree view. Select
-    **Advanced** tab from the **Gallery** Pane.
+    have been resolved. Go to **Tree view** and click on **Gallery3** from Tree view. Select
+    **Advanced** tab from the **Properties** Pane.
 
     ![](./media/image42.png)
 
@@ -370,7 +370,7 @@ access the SAP related pages.
     ![](./media/image51.png)
 
 
-4.  Enter the name as **ProductID**.
+4.  Enter the name as +++**ProductID**+++.
 
     ![](./media/image52.png)
 
@@ -379,10 +379,10 @@ access the SAP related pages.
 
     | **Property** | **Data Type** |
     |--------------|---------------|
-    | Name         | Text          |
-    | Description  | Text          |
-    | E-Tag        | Text          |
-    | Price        | Number        |
+    | +++Name+++         | Text          |
+    | +++Description+++  | Text          |
+    | +++E-Tag+++        | Text          |
+    | +++Price+++        | Number        |
 
 
     ![](./media/image53.png)
