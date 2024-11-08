@@ -392,25 +392,25 @@ settings.
 
 
 4.  Click on the down arrow sign of the first column and then select the
-    Edit column option. Rename the Display name as +++**ProductName**+++.
+    Edit column option. Rename the Display name as +++**Product Name**+++.
     Then click on the update button.
 
     ![](./media/image54.png)
 
-5.  Select **+ New column** and enter the display name as +++**ProductPrice**+++, after entering the name click on **Save**.
+5.  Select **+ New column** and enter the display name as +++**Product Price**+++, after entering the name click on **Save**.
 
     ![](./media/image55.png)
 
-6.  Select **+ New column** and enter the display name as +++**CustomerName**+++, After entering the name click on **Save**.
+6.  Select **+ New column** and enter the display name as +++**Customer Name**+++, After entering the name click on **Save**.
 
     ![](./media/image56.png)
 
 
-7.  Select **+ New column** and enter the display name as +++**CustomerAddress**+++, After entering the name click on **Save**.
+7.  Select **+ New column** and enter the display name as +++**Customer Address**+++, After entering the name click on **Save**.
 
     ![](./media/image57.png)
 
-8.  Select **+ New column** and enter the display name as +++**CustomerContact**+++, After entering the name click on **Save**.
+8.  Select **+ New column** and enter the display name as +++**Customer Contact**+++, After entering the name click on **Save**.
 
     ![](./media/image58.png)
 
@@ -637,7 +637,7 @@ settings.
 
 10. Select the submit button, enter the given below formula as OnSelect.
 
-+++Patch(Carts,Defaults(Carts),{'ProductName':*CartProdName*.Text,'ProductPrice':*CartProdPrice*.Text,'CustomerName':*NameInput*.Text,'CustomerContact':*PhoneInput*.Text,'CustomerAddress':*AddressInput*.Text})+++
++++Patch(Carts,Defaults(Carts),{'Product Name':*CartProdName*.Text,'Product Price':*CartProdPrice*.Text,'Customer Name':*NameInput*.Text,'Customer Contact':*PhoneInput*.Text,'Customer Address':*AddressInput*.Text})+++
 
     ![](./media/image90.png)
 
