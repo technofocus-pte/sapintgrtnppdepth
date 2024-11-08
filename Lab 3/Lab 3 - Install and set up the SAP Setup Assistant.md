@@ -1,6 +1,8 @@
 # Lab 3 Install and set up the SAP Setup Assistant
 
-**Objective:** This lab is designed to guide participants through the
+## Objective: 
+
+This lab is designed to guide participants through the
 process of setting up and configuring the SAP Setup Assistant within the
 Microsoft Power Platform environment. Participants will learn how to
 establish necessary connections, install the SAP Setup Assistant, update
@@ -10,12 +12,16 @@ the Power Platform environment for integration with SAP, enabling
 participants to connect to various services and configure essential
 settings.
 
+## Solution Foucs Area
+
+This lab focuses on setting up the SAP Setup Assistant in Power Platform. It covers creating connections to essential services, installing the app, updating connection references, enabling cloud flows, and using the canvas app to streamline SAP integration processes.
+
 **Estimated Time:** 20 mins
 
-# Task 1: Create Connection
+## Task 1: Create Connection
 
 1.  Navigate to
-    <https://www.microsoft.com/en-in/power-platform/products/power-apps>
+    +++https://www.microsoft.com/en-in/power-platform/products/power-apps+++
     and click on **Try for free.**
     ![](./media/image1.png)
 
@@ -53,8 +59,8 @@ settings.
     ![](./media/image7.png)
 
 
-8.  In the top right search bar, search for **Microsoft Dataverse,** and
-    then select Microsoft Dataverse.
+8.  In the top right search bar, search for +++**Microsoft Dataverse**+++ and
+    then select **Microsoft Dataverse**.
 
     ![](./media/image8.png)
 
@@ -71,25 +77,25 @@ settings.
 
 11. Repeat the same process to create the below given connections.
 
-    - Office 365 Outlook
+    - **Office 365 Outlook**
 
-    - Office 365 Users connector
+    - **Office 365 Users connector**
 
-    - Power Apps for Makers connector
+    - **Power Apps for Makers connector**
 
-    - Power Automate Management
+    - **Power Automate Management**
 
-    - Power Platform for Admins connector
+    - **Power Platform for Admins connector**
 
-    - Power Query Dataflows connector
+    - **Power Query Dataflows connector**
 
     ![](./media/image11.png)
 
 
-# Task 2: Install SAP Setup Assistant from AppSource
+## Task 2: Install SAP Setup Assistant from AppSource
 
 1.  Navigate to
-    <https://appsource.microsoft.com/en-us/product/dynamics-365/powerplatformtemplates.mpa_sapsetupassistant>
+    +++https://appsource.microsoft.com/en-us/product/dynamics-365/powerplatformtemplates.mpa_sapsetupassistant+++
     and click on the **Get it now**.
 
     ![](./media/image12.png)
@@ -108,7 +114,7 @@ settings.
     ![](./media/image14.png)
 
 
-# Task 3: Update Connection Reference
+## Task 3: Update Connection Reference
 
 1.  Navigate to Power apps, From the left navigation bar select
     **Solutions** and open **Default Solution.**
@@ -133,19 +139,19 @@ settings.
 
 4.  Repeat the Same process for the below given connections:
 
-    - SAP Setup Assistant - Office 365 Outlook
+    - **SAP Setup Assistant - Office 365 Outlook**
 
-    - SAP Setup Assistant - Office 365 Users
+    - **SAP Setup Assistant - Office 365 Users**
 
-    - SAP Setup Assistant - Power Apps for Makers
+    - **SAP Setup Assistant - Power Apps for Makers**
 
-    - SAP Setup Assistant - Power Automate Management
+    - **SAP Setup Assistant - Power Automate Management**
 
-    - SAP Setup Assistant - Power Platform for Admins
+    - **SAP Setup Assistant - Power Platform for Admins**
 
-    - SAP Setup Assistant - Power Query Dataflows
+    - **SAP Setup Assistant - Power Query Dataflows**
 
-# Task 4: Turn on Cloud Flow
+## Task 4: Turn on Cloud Flow
 
 1.  From the left navigation pane click on **Solution**, then click on
     **Manged** and select and open **SAP Setup Assistant**.
@@ -154,12 +160,12 @@ settings.
 
 
 2.  From the left navigation pane, select **Cloud Flows**. Locate any
-    flows showing an "Off" status and turn them **On**.
+    flows showing an **Off** status and turn them **On**.
 
     ![](./media/image19.png)
 
 
-# Task 5: Use the SAP Setup Assistant
+## Task 5: Use the SAP Setup Assistant
 
 You are now ready to use the **SAP Setup Assistant** canvas app,
 installed as part of the SAP Setup Assistant solution.
