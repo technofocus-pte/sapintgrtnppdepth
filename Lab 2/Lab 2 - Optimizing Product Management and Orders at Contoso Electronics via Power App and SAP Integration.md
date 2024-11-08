@@ -550,7 +550,7 @@ settings.
 
     +++"Price  :   " & Text(Value(ThisItem.Price),"\$#,###.##")+++
 
-    ![](./media/image76.png)
+    ![](./media/image76.1.png)
 
 
 20. Repeat the same process for **Title4**, rename as +++**CartProdName**+++
@@ -558,13 +558,13 @@ settings.
 
     +++"Product Name :  " & ThisItem.Name+++
 
-    ![](./media/image77.png)
+    ![](./media/image77.1.png)
 
 
 21. Select **OrderGallery**, click on the **pencil** icon in the gallery
     canvas field, go to **Insert**. Search and select +++**Cancel**+++ Icon.
 
-    ![](./media/image78.png)
+    ![](./media/image78.1.png)
 
 
     ![](./media/image79.png)
@@ -575,7 +575,7 @@ settings.
 
     +++Remove(Collection,ThisItem)+++
 
-    ![](./media/image80.png)
+    ![](./media/image80.1.png)
 
 
 
@@ -669,12 +669,12 @@ settings.
 3.  Enter the **Full Name Phone Number and Address** and then click on
     **submit**. The order is placed for the products.
 
-    ![](./media/image95.png)
+    ![](./media/image95.1.png)
 
 
 5.  Go to Power apps Tables and check the order Entry.
 
-    ![](./media/image96.png)
+    ![](./media/image96.1.png)
 
 
 ### Conclusion
