@@ -22,60 +22,39 @@ This lab focuses on setting up the SAP Setup Assistant in Power Platform. It cov
 
 1.  Navigate to
     +++https://www.microsoft.com/en-in/power-platform/products/power-apps+++
-    and click on **Try for free.**
-    ![](./media/image1.png)
-
-
-2.  Enter the Admin Tenant ID, select the check box and then click on
-    the **Start free**.
-
-    ![](./media/image2.png)
-
-
-3.  Enter the Admin Password and click on the **Sign in**.
-
-    ![](./media/image3.png)
-
-
-4.  If pick an account window pop up, select **Admin account** to login
-    into Power Apps.
-
-    ![](./media/image4.png)
-
-
-5.  From the top bar in Power apps select the **Dev One** environment.
+    and sign in with Admin tenant ID. From the top bar in Power apps select the **Dev One** environment.
 
     ![](./media/image5.png)
 
 
-6.  From the left navigation bar click on **More** and select
+2.  From the left navigation bar click on **More** and select
     **Connections.**
 
     ![](./media/image6.png)
 
 
-7.  From the top bar click on the **+ New Connection.**
+3.  From the top bar click on the **+ New Connection.**
 
     ![](./media/image7.png)
 
 
-8.  In the top right search bar, search for +++**Microsoft Dataverse**+++ and
+4.  In the top right search bar, search for +++**Microsoft Dataverse**+++ and
     then select **Microsoft Dataverse**.
 
     ![](./media/image8.png)
 
 
-9.  Click on the **Create**, to create the connection.
+5.  Click on the **Create**, to create the connection.
 
     ![](./media/image9.png)
 
-10. Then Pick an account window will pop up, select the admin tenant
+6. Then Pick an account window will pop up, select the admin tenant
     account to complete the connection.
 
     ![](./media/image10.png)
 
 
-11. Repeat the same process to create the below given connections.
+7. Repeat the same process to create the below given connections.
 
     - **Office 365 Outlook**
 
