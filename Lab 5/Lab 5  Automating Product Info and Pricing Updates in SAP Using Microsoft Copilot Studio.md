@@ -43,7 +43,7 @@ ensuring accuracy and efficiency in operations.
 ### Task 1: Login in Copilot studio
 
 1.  Navigate to
-    <https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio>
+    +++https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio+++
     and click on **Sign in** button.
 
     ![](./media/image20.png)
@@ -89,15 +89,15 @@ ensuring accuracy and efficiency in operations.
 4.  Enter the following details in the respected fields and click on the
     **Create** button.
 
-    1.  **Name:** SAP Product Copilot
+    1.  **Name:** +++SAP Product Copilot+++
 
-    2.  **Description:** The Copilot allows you to integrate SAP system
+    2.  **Description:** +++The Copilot allows you to integrate SAP system
         and fetch product information live from SAP and update price of
-        products.
+        products.+++
 
-    3.  **Instructions:** The copilot must check the available product
+    3.  **Instructions:** +++The copilot must check the available product
         in SAP system and provide the product information as per the
-        requirement and update the price of the product.
+        requirement and update the price of the product.+++
 
     ![](./media/image27.png)
 
@@ -128,7 +128,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image30.png)
 
 
-3.  From top left corner rename the flow as **SAP Product Category**.
+3.  From top left corner rename the flow as +++**SAP Product Category**+++.
 
     ![](./media/image31.png)
 
@@ -144,7 +144,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image33.png)
 
 
-6.  Enter **Product Input** in the input section.
+6.  Enter +++**Product Input**+++ in the input section.
 
     ![](./media/image34.png)
 
@@ -154,7 +154,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image35.png)
 
 
-8.  In Add an action section enter **SAP OData** and select **Query
+8.  In Add an action section enter +++**SAP OData**+++ and select **Query
     OData entities.**
 
     ![](./media/image36.png)
@@ -163,12 +163,12 @@ ensuring accuracy and efficiency in operations.
 9.  Enter the following Details in the Create a new connection section
     and then click on the **Create new button**.
 
-    1.  **Connection Name:** SAP-Product-100
+    1.  **Connection Name:** +++SAP-Product-100+++
 
     2.  **Authentication Type:** Basic
 
     3.  **OData Base URL:**
-        <https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC>
+        +++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++
 
     4.  **User Name:** Enter the ES5 SAP User ID which we created in Lab 1.
 
@@ -199,8 +199,8 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image41.png)
 
 
-14. Enter **Product Output** as output name and then enter the
-    **string(body('Query_OData_entities'))** as the value of the output
+14. Enter +++**Product Output**+++ as output name and then enter the
+    +++**string(body('Query_OData_entities'))**+++ as the expresion value of the output
     with the help of function. click on the Add button after entering the
     output query.
 
@@ -223,7 +223,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image45.png)
 
 
-2.  Rename the Flow Name as **Update Product Price.**
+2.  Rename the Flow Name as +++**Update Product Price**+++
 
     ![](./media/image46.png)
 
@@ -239,13 +239,13 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image48.png)
 
 
-5.  Rename the input name as **Product ID.**
+5.  Rename the input name as +++**Product ID**+++ .
 
     ![](./media/image49.png)
 
 
-6.  Then again click on the + Add an input, select **Number** as input
-    type and rename the input as **Update Price.**
+6.  Then again click on the **+ Add an input**, select **Number** as input
+    type and rename the input as +++**Update Price**+++ .
 
     ![](./media/image50.png)
 
@@ -255,7 +255,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image51.png)
 
 
-8.  Enter **SAP OData** in the Add an action search bar and click on
+8.  Enter +++**SAP OData**+++ in the Add an action search bar and click on
     **see more**.
 
     ![](./media/image52.png)
@@ -319,11 +319,11 @@ ensuring accuracy and efficiency in operations.
 4.  In the Input Parameter click on the edit input button and add the
     description as given below and the click on save button.
 
-    > **Description:** Product Category. One of the following categories can
+    > **Description:** +++Product Category. One of the following categories can
 be used. The name has to be exactly like this: Accessories, Notebooks,
 Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers,
 Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors, MP3
-Players, Camcorders.
+Players, Camcorders.+++
 
     ![](./media/image62.png)
 
@@ -339,9 +339,9 @@ Players, Camcorders.
 6.  Enter the given below given description and click on the save
     button.
 
-    > **Description:** List of SAP products for a provided product category.
+    > **Description:** +++List of SAP products for a provided product category.
 Return the result as table including following information: ProductID,
-Category, Name, Description and Price.
+Category, Name, Description and Price.+++
 
     ![](./media/image65.png)
 
@@ -400,14 +400,14 @@ Category, Name, Description and Price.
     ![](./media/image74.png)
 
 
-2.  Rename the topic as **Product Update**.
+2.  Rename the topic as +++**Product Update**+++.
 
     ![](./media/image75.png)
 
 
 3.  In the trigger node, Enter the below given description.
 
-    > Update Product, Update Product Price, Update Price, Price Update
+    +++Update Product, Update Product Price, Update Price, Price Update+++
 
     ![](./media/image76.png)
 
@@ -419,8 +419,7 @@ Category, Name, Description and Price.
 
 5.  Enter the message in the Message Node which is given below.
 
-    > Thank you for using our service. Please enter **Product ID** and
-**Update Price** in below given card.
+    +++Thank you for using our service. Please enter **Product ID** and **Update Price** in below given card.+++
 
     ![](./media/image78.png)
 
@@ -440,6 +439,7 @@ Category, Name, Description and Price.
 8.  Enter the below give code in the properties window and close the
     properties.
 
+    +++
     ```
     {
 
@@ -498,35 +498,36 @@ Category, Name, Description and Price.
     }
 
     ```
+    +++
 
     ![](./media/image81.png)
 
 
-9.  Below adaptive card output section is available, in output **section
+10.  Below adaptive card output section is available, in output **section
     1** variable click on select a variable and then click on the create
     new, a new variable **Var1** is created.
 
     ![](./media/image82.png)
 
 
-10. Repeat the same process for the next output Var2 is created.
+11. Repeat the same process for the next output **Var2** is created.
 
     ![](./media/image83.png)
 
 
-11. Go to variable from the top and select all right-side check box for
+12. Go to variable from the top and select all right-side check box for
     all variables.
 
     ![](./media/image84.png)
 
 
-12. Below adaptive card, click on + sign and select call an action, then
+13. Below adaptive card, click on + sign and select call an action, then
     select **Update Product** flow.
 
     ![](./media/image85.png)
 
 
-13. In the Action select Var1 for Product ID and Var2 for Update Price.
+14. In the Action select Var1 for Product ID and Var2 for Update Price.
 
     ![](./media/image86.png)
 
@@ -534,39 +535,39 @@ Category, Name, Description and Price.
     ![](./media/image87.png)
 
 
-14. Below Action node, click on + sign and add Message node, in message
-    node enter the flowing message. **Product Var1 price is updated.
-    Thankyou.** Replace Var1 with Variable name Var1 with the help of
+15. Below Action node, click on + sign and add Message node, in message
+    node enter the flowing message. +++**Product Var1 price is updated.
+    Thankyou.**+++ Replace **Var1** with Variable Var1 with the help of
     {x} button.
 
     ![](./media/image88.png)
 
 
-15. Click on the Test button and enter the prompt Update Price. Then
-    fill in the Product ID (HT-1001) and price (1540), click on submit.
+16. Click on the Test button and enter the prompt Update Price. Then
+    fill in the Product ID +++HT-1001+++ and price +++1540+++, click on submit.
     After clicking on submit a message show to connect. Click on the
     connect.
 
     ![](./media/image89.png)
 
 
-16. It will navigate to another window which manages the connections. Click
+17. It will navigate to another window which manages the connections. Click
     on the connect button of Update Product Price.
 
     ![](./media/image90.png)
 
 
-17. Click on the three dots and select connection SAP-Product-100 then
+18. Click on the three dots and select connection SAP-Product-100 then
     click on submit button.
 
     ![](./media/image91.png)
 
 
-18. After completing it shows connected.
+19. After completing it shows connected.
 
     ![](./media/image92.png)
 
-19. Click on the publish button to save the copilot setting
+20. Click on the publish button to save the copilot setting
 
     ![](./media/image93.png)
 
@@ -603,8 +604,8 @@ Category, Name, Description and Price.
 
 ## Exercise : Test Copilot in teams.
 
-1.  Open teams app and enter the prompt **Give me information about
-    Notebooks.**
+1.  Open teams app and enter the prompt +++**Give me information about
+    Notebooks.**+++
 
     > **Note:** If prompted Additional permissions are required to run this
 action. To proceed, please select 'Connect', and review any missing
@@ -620,13 +621,13 @@ again.
     ![](./media/image100.png)
 
 
-3.  Then give another prompt, I want to update price of product.
+3.  Then give another prompt, +++**I want to update price of product.**+++
 
     ![](./media/image101.png)
 
 
-4.  Now it returns the adaptive card, enter Product ID HT-1001 and in
-    price enter 1111 and then click on the submit.
+4.  Now it returns the adaptive card, enter Product ID +++HT-1001+++ and in
+    price enter +++1111+++ and then click on the submit.
 
     ![](./media/image102.png)
 
@@ -643,9 +644,9 @@ again.
     ![](./media/image103.png)
 
 
-6.  To confirm the updation, go to <https://sapes5.sapdevcenter.com/> ,
-    click on Fiori Launch, login with your User Id and Password, Click
-    on manage product. Then in search bar type HT-1001 and then click
+6.  To confirm the updation, go to +++https://sapes5.sapdevcenter.com/+++ ,
+    click on Fiori Launch, **login** with your SAP User Id and Password, Click
+    on **Manage product**. Then in search bar type +++HT-1001+++ and then click
     go.
 
     ![](./media/image104.png)
