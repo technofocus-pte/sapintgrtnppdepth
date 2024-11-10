@@ -99,7 +99,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image11.png)
 
 
-4.  Name the flow as **SAP Fiori Automation.** Click on **Create**.
+4.  Name the flow as +++**SAP Fiori Automation**+++ ,SAP  Click on **Create**.
 
     ![](./media/image12.png)
 
@@ -111,7 +111,7 @@ increase accuracy, and improve overall productivity.
 
 ### Task 3: Declare Input and Output variables
 
-1.  From the right-side pane, select second icon to open **Variables**
+1.  From the right-side pane, select second icon {X} to open **Variables**
     pane, click on the **+** icon under **Input/output variables** and
     select **Input**.
 
@@ -123,11 +123,11 @@ increase accuracy, and improve overall productivity.
 
     | **Property**      | **Value**                         |
     |-------------------|-----------------------------------|
-    | Variable name     | SAPUserID                         |
+    | Variable name     | +++SAPUserID+++                         |
     | Data type         | Text                              |
     | Default value     | **Enter Your SAP ES5 User ID which created in Lab 1**    |
-    | External name     | SAP UserID                        |
-    | Description       | SAP User ID to login to SAP Fiori |
+    | External name     | +++SAP UserID+++                        |
+    | Description       | +++SAP User ID to login to SAP Fiori+++ |
     | Mark as Sensitive | Enable                            |
 
     ![](./media/image15.png)
@@ -143,11 +143,11 @@ increase accuracy, and improve overall productivity.
 
     | **Property**      | **Value**                      |
     |-------------------|--------------------------------|
-    | Variable name     | SAPPassword                    |
+    | Variable name     | +++SAPPassword+++                    |
     | Data type         | Text                           |
     | Default value     | **Your SAP ES5 Password which created in Lab 1**      |
-    | External name     | SAP Password                   |
-    | Description       | Password to login to SAP Fiori |
+    | External name     | +++SAP Password+++                   |
+    | Description       | +++Password to login to SAP Fiori+++ |
     | Mark as Sensitive | Enable                         |
 
     ![](./media/image17.png)
@@ -168,10 +168,10 @@ increase accuracy, and improve overall productivity.
 
     | **Variable**  | **Property**          |
     |---------------|-----------------------|
-    | Variable name | Processingresults     |
+    | Variable name | +++Processingresults+++     |
     | Data type     | Text                  |
-    | External name | Result                |
-    | Description   | Result of the process |
+    | External name | +++Result+++                |
+    | Description   | +++Result of the process+++ |
 
     ![](./media/image20.png)
 
@@ -188,31 +188,31 @@ increase accuracy, and improve overall productivity.
     ![](./media/image21.png)
 
 
-3.  Name it as **ExceptionHandler** and then click on **Save**.
+3.  Name it as +++**ExceptionHandler**+++ and then click on **Save**.
 
     ![](./media/image22.png)
 
 
-4.  In the search bar of the Actions pane, type **Get last error** and
+4.  In the search bar of the Actions pane, type +++**Get last error**+++ and
     double click on the action **Get last error** to add it to the
     **ExceptionHandler** subflow and click on **Save**.
 
     ![](./media/image23.png)
 
 
-5.  In the search bar of the Actions pane, type **Set variable** and
+5.  In the search bar of the Actions pane, type +++**Set variable**+++ and
     double click on the action **Set variable** to add the action to the
     flow. Add the values as per the below table and click on **Save**.
 
     | **Property** | **Value** |
     |----|----|
     | Variable | Click on NewVar, select the **x** symbol and select the output variable – **Processingresults** |
-    | Value | **\## Exception \## - %LastError%** |
+    | Value | +++**\## Exception \## - %LastError%**+++ |
 
     ![](./media/image24.png)
 
 
-6.  Now, add an action **Stop flow,** which will stop the flow if there
+6.  Now, add an action +++**Stop flow**+++ , which will stop the flow if there
     is an error.
 
     Fill in the details as below and click on **Save**.
@@ -220,7 +220,7 @@ increase accuracy, and improve overall productivity.
     | **Property**  | **Value**                     |
     |---------------|-------------------------------|
     | End flow      | Select **With error message** |
-    | Error message | **%LastError%**               |
+    | Error message | +++**%LastError%**+++               |
 
     
     ![](./media/image25.png)
@@ -242,18 +242,17 @@ increase accuracy, and improve overall productivity.
     ![](./media/image27.png)
 
 
-2.  Name the subflow as **SAP_Logon**. Click on **Save**.
+2.  Name the subflow as +++**SAP_Logon**+++. Click on **Save**.
 
     ![](./media/image28.png)
 
 
-3.  From the search bar of the Actions pane, type in **launch**.
+3.  From the search bar of the Actions pane, type in +++**launch**+++.
 
     ![](./media/image29.png)
 
 
-4.  Drag and drop the **Launch new Microsoft Edge**/**Launch new
-    Chrome** action on to the SAP_Logon subflow screen.
+4.  Double click on the **Launch new Microsoft Edge** action on to the SAP_Logon subflow screen.
 
     Under Select parameters, provide the following details and then click on
 **Save**.
@@ -261,7 +260,7 @@ increase accuracy, and improve overall productivity.
     | **Property** | **Value** |
     |----|----|
     | Launch mode | **Launch a new instance** |
-    | Initial URL | <https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html> |
+    | Initial URL | +++https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html+++ |
     | Window state | **Normal** |
 
     ![](./media/image30.png)
@@ -327,7 +326,7 @@ in the screenshot below).
     ![](./media/image38.png)
 
 
-13. Then change the variable name for the Password as **SAPPassword**.
+13. Then change the variable name for the Password as +++**SAPPassword**+++.
 
 14. In the Recorder window, the recorded events should look similar to
     the events in the screenshot below. Click on **Done**.
@@ -378,7 +377,7 @@ click on it, and select Delete. There should be only one launch action.
 
 
 21. Back in the Power Automate screen, right click on the added UI
-    element and select **Rename.** Rename it as **Heading**.
+    element and select **Rename.** Rename it as +++**Heading**+++.
 
     ![](./media/image46.png)
 
@@ -386,7 +385,7 @@ click on it, and select Delete. There should be only one launch action.
     ![](./media/image47.png)
 
 
-22. Add an action, **wait for web page content** as the last step in the
+22. Add an action, +++**wait for web page content**+++ as the last step in the
     **SAP_Logon** subflow. Select **Heading** under the UI element
     option and click on **Save**.
 
@@ -405,13 +404,13 @@ click on it, and select Delete. There should be only one launch action.
 
 ### Task 1: Add Sub Workflow
 
-1.  From the Power Automate flow page, click on the **Subflows** -\> **+
+1.  From the Power Automate flow page, click on the **Subflows** -> **+
     New subflow**.
 
     ![](./media/image49.png)
 
 
-2.  Type in the name of the subflow as **SearchProductBySupplier** and
+2.  Type in the name of the subflow as +++**SearchProductBySupplier**+++ and
     click on **Save**.
 
     ![](./media/image50.png)
@@ -451,7 +450,7 @@ execution.
 
 6.  **Capture** the **Search box (Ctrl+left click)** option, Once the
     element has been added to the UI element picker, type in the
-    **AVANTEL** in the Search bar.
+    +++**AVANTEL**+++ in the Search bar.
 
     ![](./media/image54.png)
 
