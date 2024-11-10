@@ -494,6 +494,12 @@ execution.
     easier understanding. The elements will look like below after
     renaming.
 
+    - +++SupplierID+++
+    - +++SearchBox+++
+    - +++Search icon+++
+    - +++Checkbox+++
+    - +++Select+++
+
     ![](./media/image60.png)
 
 
@@ -502,25 +508,25 @@ execution.
 1.  Now, we will add the elements that were captured in the Task 1
     above, to the **SearchProductBySupplier** subflow.
 
-2.  Add an action, **Click link on web page** and select **Manage
+2.  Add an action, +++**Click link on web page**+++ and select **Manage
     Products** UI element. Leave the other defaults. Click on **Save**.
 
     ![](./media/image61.png)
 
 
-3.  Add an action, **Click link on web page** and select **Supplier ID**
+3.  Add an action, +++**Click link on web page**+++ and select **Supplier ID**
     UI element. Click on **Save**.
 
     ![](./media/image62.png)
 
 
-4.  Add an action, **Click link on web page** and select **Search Box**
+4.  Add an action, +++**Click link on web page**+++ and select **Search Box**
     UI element. Click on **Save**.
 
     ![](./media/image63.png)
 
 
-5.  Add an action, **Populate text field on web page** and again select
+5.  Add an action, +++**Populate text field on web page**+++ and again select
     **Search Box** UI element. Under Text, type the Value to be searched
     for. Here we have used **AVANTEL**. This can be changed as per your
     preference. Click on **Save**.
@@ -531,38 +537,38 @@ execution.
     > **Note:** Instead of hard coding this value, we can also add an input
 variable and then use the variable name here.
 
-6.  Add an action, **Click link on web page** and select **Search icon**
+6.  Add an action, +++**Click link on web page**+++ and select **Search icon**
     UI element. Click on **Save**.
 
     ![](./media/image65.png)
 
 
-7.  Add a **Wait** Action. Enter the duration as **2,** to wait for 2
+7.  Add a **Wait** Action. Enter the duration as +++**2**+++ to wait for 2
     seconds for the product to get loaded based on the Search text.
     Click on **Save**.
 
     ![](./media/image66.png)
 
 
-8.  Add an action, **Send Keys**. Select **Tab** key from Insert
+8.  Add an action, +++**Send Keys**+++. Select **Tab** key from Insert
     **Special Keys -\> Misc -\> Tab**. Click on **Save**.
 
     ![](./media/image67.png)
 
 
-9.  Add another **Send Keys** Action and select **Space** instead of
+9.  Add another +++**Send Keys**+++ Action and select **Space** instead of
     Tab. Click on **Save**.
 
     ![](./media/image68.png)
 
 
-10. Add an action, **Click link on web page** and select **Select** UI
+10. Add an action, +++**Click link on web page**+++ and select **Select** UI
     element.
 
     ![](./media/image69.png)
 
 
-11. Add an action, **Click link on web page** and select **Go Button**
+11. Add an action, +++**Click link on web page**+++ and select **Go Button**
     UI element.
 
     ![](./media/image70.png)
@@ -573,7 +579,7 @@ variable and then use the variable name here.
     ![](./media/image71.png)
 
 
-13. Add an action, **Extract data from web page**. Once added, with the
+13. Add an action, +++**Extract data from web page**+++ . Once added, with the
     Extract data from web page open in the Power Automate flow, **open**
     the browser in which we have the selected list of products on the
     **SAP Fiori**.
@@ -605,16 +611,16 @@ variable and then use the variable name here.
 
 ### Task 1: Create Sub flow SAP_Logoff
 
-1.  We will now create a new subflow named **SAP_Logoff** to log off
+1.  We will now create a new subflow named +++**SAP_Logoff**+++ to log off
     from the **SAP Fiori**.
 
-2.  Click on **Subflows -\> + New subflow.**
+2.  Click on **Subflows -> + New subflow.**
 
     ![](./media/image75.png)
 
 
-3.  In the **Add a subflow** pane, enter the name of the subflow as
-    **SAP_Logoff.** Click on **Save**.
+3.  In the +++**Add a subflow**+++ pane, enter the name of the subflow as
+    +++**SAP_Logoff**+++ Click on **Save**.
 
     ![](./media/image76.png)
 
@@ -653,7 +659,7 @@ variable and then use the variable name here.
     each of them.
 
 2.  Select the Profile Button **UI Element** that we captured and change
-    its name to **Profile Button**.
+    its name to +++**Profile Button**+++.
 
     ![](./media/image81.png)
 
@@ -666,22 +672,22 @@ variable and then use the variable name here.
 
 ### Task 3: Add Actions to the subflow
 
-1.  From the **Actions** pane, drag and drop a **Click link on web
-    page** action to the **SAP_Logoff** subflow pane. Select the UI
+1.  From the **Actions** pane, Search and select +++**Click link on web
+    page**+++ action to the **SAP_Logoff** subflow pane. Select the UI
     Element to be the **Profile Button**. Click on **Save**.
 
     ![](./media/image83.png)
 
 
-2.  Next, add an action, **Send Keys**. Enter the given below text in
+2.  Next, add an action, +++**Send Keys**+++. Enter the given below text in
     **Text to send field** and then click on the **save** button
 
-    > {Down}{Down}{Down}{Down}{Down}{Down}{Return}{Space}
+    +++{Down}{Down}{Down}{Down}{Down}{Down}{Return}{Space}+++
 
     ![](./media/image84.png)
 
 
-3.  Add an action, **Close web browser** and click on **Save** with the
+3.  Add an action, +++**Close web browser**+++ and click on **Save** with the
     web browser instance value as **Browser**.
 
     ![](./media/image85.png)
@@ -700,13 +706,13 @@ variable and then use the variable name here.
     flow to get a complete execution.
 
 3.  First in the Main flow, from the Actions pane, drag and drop add an
-    action **On block error** into the Main flow tab.
+    action +++**On block error**+++ into the Main flow tab.
 
     ![](./media/image87.png)
 
 
-4.  Name the error block as **MainExceptionBlock**. Click on **+ New
-    rule -\> Run subflow.**
+4.  Name the error block as +++**MainExceptionBlock**+++ . Click on **+ New
+    rule -> Run subflow.**
 
     ![](./media/image88.png)
 
@@ -722,7 +728,7 @@ variable and then use the variable name here.
     ![](./media/image90.png)
 
 
-7.  Next, add an action **Runsubflow.** Select SAP_Logon subflow from
+7.  Next, add an action +++**Runsubflow**+++ . Select SAP_Logon subflow from
     the drop down and click on **Save**.
 
     ![](./media/image91.png)
