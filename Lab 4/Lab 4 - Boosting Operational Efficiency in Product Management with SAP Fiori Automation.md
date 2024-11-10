@@ -38,7 +38,6 @@ increase accuracy, and improve overall productivity.
 1.  Sign in with your Admin tenant credentials to Power Automate
     using +++https://make.powerautomate.com/+++. Click **My flows** from
     left pane. Click **Desktop flows**.
-    Automate for Desktop**.
 
     ![](./media/image2.3.png)
 
