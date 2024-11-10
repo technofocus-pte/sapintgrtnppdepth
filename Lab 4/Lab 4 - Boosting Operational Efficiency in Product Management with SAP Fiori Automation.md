@@ -36,46 +36,52 @@ increase accuracy, and improve overall productivity.
 ### Task 1: Install Power Automate Desktop
 
 1.  Sign in with your Admin tenant credentials to Power Automate
-    using <https://make.powerautomate.com/>. Click **My flows** from
-    left pane. Click **Desktop flows** then click **Install \>Power
+    using +++https://make.powerautomate.com/+++. Click **My flows** from
+    left pane. Click **Desktop flows**.
     Automate for Desktop**.
+
+    ![](./media/image2.3.png)
+
+2. Click on **Start a free trial** on the desktop flow page. Then click on **Install** Button from top right corner and then select **Power automate for desktop**.
+
+    ![](./media/image2.1.png)
 
     ![](./media/image2.png)
 
 
-2.  Navigate to **File Explorer** and click **Downloads** from left pane
+3.  Navigate to **File Explorer** and click **Downloads** from left pane
     then double click **Setup.Microsoft.PowerAutomate.exe**.
 
     ![](./media/image3.png)
 
 
-3.  Click **Next** on **Install Power Automate package** pane.
+4.  Click **Next** on **Install Power Automate package** pane.
 
     ![](./media/image4.png)
 
 
-4.  Click check box for **By selecting Install you agree to Microsoft’s
+5.  Click check box for **By selecting Install you agree to Microsoft’s
     terms of use**. Click **Install** on Installation details pane.
 
     ![](./media/image5.png)
 
 
-5.  Click **Yes** on Do you want to allow this app to make changes to
+6.  Click **Yes** on Do you want to allow this app to make changes to
     your device? dialog.
 
     ![](./media/image6.png)
 
 
-6.  Click **Launch app** on Installation successful pane.
+7.  Click **Launch app** on Installation successful pane.
 
     ![](./media/image7.png)
 
-7.  Sign in with your Admin tenant credentials.
+8.  Sign in with your Admin tenant credentials.
 
     ![](./media/image8.png)
 
 
-8.  You will be navigated to Power Automate for Desktop Home page.
+9.  You will be navigated to Power Automate for Desktop Home page.
 
 ### Task 2: Create a Power Automate Desktop flow.
 
