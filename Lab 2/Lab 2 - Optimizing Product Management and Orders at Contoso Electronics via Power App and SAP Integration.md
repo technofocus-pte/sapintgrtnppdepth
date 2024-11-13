@@ -7,7 +7,8 @@ Develop a Power App that integrates with an SAP system via the SAP OData connect
 ### Solution Focus are
 
 Contoso Electronics offers a broad range of electronic products, and while customers have access to an online store, the experience is often fragmented. Customers face challenges in accessing accurate, up-to-date product information and a seamless ordering process.
-The existing system struggles with two key issues:
+
+**The key challenges addressed include:**
 
 - **Product Discovery:** Customers find it difficult to quickly browse and compare various products across different categories, slowing down purchasing decisions.
 - **Ordering Process:** Customers often face delays or friction in placing orders, resulting in abandoned carts and poor conversion rates.
