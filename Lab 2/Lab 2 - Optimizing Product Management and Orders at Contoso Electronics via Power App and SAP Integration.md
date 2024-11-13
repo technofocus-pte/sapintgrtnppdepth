@@ -19,7 +19,7 @@ To address these challenges, Contoso Electronics will build a Power App connecte
 - Easily add products to their cart and place orders directly through the app.
 - Enjoy a smooth, user-friendly interface that simplifies the product discovery and ordering process, leading to a more efficient customer journey.
 
-## Persona and Scenario
+## Persona
 
 **David Brown – App Developer**
 
