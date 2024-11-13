@@ -1,46 +1,36 @@
-# Lab 1 - Streamlining SAP Product Updates with Power Apps and OData connector for Retail Business
+# Lab 1 - Streamlining SAP Product Updates with Power Apps and OData
 
-## Objective
-Develop a connected platform within the Contoso business ecosystem to simplify product management and enhance operational efficiency through SAP and Microsoft Power Platform integration. This lab will guide Contoso team members in setting up SAP accounts, configuring OData connectors, creating a Power Platform Canvas App, and automating data flows, all of which streamline product update processes and minimize manual intervention.
+## Objective 
 
-## Solution Focus Area
-Contoso, a multinational leader in consumer electronics, maintains an extensive product catalog. Managing product data effectively, however, has become a challenge due to the number of items and the manual work involved in keeping pricing and inventory information up-to-date. Contoso’s team needs an efficient way to connect SAP with the Power Platform to streamline these updates and allow non-technical users to make real-time adjustments to product information.
+Streamline product management and updates for Contoso Electronics by
+integrating SAP with Power Apps, enabling users to access and update SAP
+product data directly from a custom-built canvas app. This solution
+automates the flow of product information and reduces manual data entry
+by connecting to an SAP OData API and leveraging Power Automate for
+seamless updates.
 
-Currently, the team encounters two main challenges:
+## Solution Focus Area: 
 
-- **Data Consistency:** With separate systems, ensuring product data accuracy across platforms is difficult, leading to potential pricing or stock discrepancies on the consumer side.
+Contoso Electronics aims to simplify the way their product information,
+such as pricing, is updated in their SAP system. Currently, updates are
+made manually, leading to inefficiencies and potential errors in the
+data. By integrating SAP and Power Platform, the company can create a
+more efficient workflow, enabling users to access real-time product data
+and make updates directly from a Power Apps canvas app.
 
-- **Manual Workflow:** Updating and managing products through SAP requires manual data entry, making the process slow and error-prone.
+**The key challenges addressed include:**
 
-To address these challenges, Contoso will use Power Platform to integrate with SAP’s OData services, allowing for seamless data connectivity and automation. The creation of a custom Canvas App and Power Automate flow will empower the team to view, edit, and update SAP product data efficiently through a unified interface.
+1.  **Manual Updates**: Product information updates in SAP are currently
+    labour-intensive and prone to error, resulting in outdated or
+    incorrect data.
 
-## Persona and Scenario
+2.  **Inefficiency in Data Access:** Users must navigate multiple
+    systems to access and update product information, leading to delays
+    in the process.
 
-- **James Collins – Solutions Architect**
-James is responsible for planning and architecting solutions that bridge SAP with Microsoft Power Platform. He evaluates the lab setup and chooses the required tools for seamless SAP integration with Power Apps and Power Automate.
-
-- **Samantha Green – Project Manager**
-Samantha oversees the implementation of this integration and provides clear guidance on the requirements. She explains the importance of creating an efficient workflow between SAP and Power Platform and monitors the lab’s progress.
-
-- **Ravi Patel – App Developer**
-Ravi develops the Canvas App and configures the custom OData connector. He uses Power Automate to create a flow that updates product prices in real time, then hands the project off for testing.
-
-- **Tara Nguyen – QA Specialist**
-Tara tests the Canvas App and Power Automate flow, ensuring the solution operates smoothly and updates SAP product information without errors.
-
-- **Emma Turner – Product Manager**
-Emma regularly updates product prices based on market trends. After the lab is complete, she uses the newly created Canvas App to adjust product prices on the SAP Gateway Demo System without needing technical support.
-
-## Scenario
-
-James Collins, a Solutions Architect at Contoso, prepares an SAP and Power Platform integration to streamline product management. He presents the lab setup to Samantha Green, the Project Manager, explaining how the OData connector will allow Power Platform to interact directly with SAP data.
-
-Samantha guides Ravi Patel, an App Developer, to implement the integration. Ravi sets up an SAP account, connects Power Apps with SAP using a custom OData connector, and builds a Canvas App that displays product data. Using Power Automate, he also creates a flow that updates SAP product prices, making it easy for product managers to make real-time adjustments.
-
-After Tara Nguyen, the QA Specialist, confirms everything works seamlessly, Emma Turner, a Product Manager, uses the app to update product prices as needed. Through this integrated system, she can adjust prices with ease, knowing updates are instantly reflected in SAP.
-
-By implementing this SAP-Power Platform integration, Contoso streamlines product management, reduces manual work, and ensures data accuracy across its systems.
-
+To address these challenges, Contoso Electronics will implement an
+integrated solution using Power Apps, Power Automate, and a custom OData
+connector to automate the retrieval and updating of product data in SAP.
 
 ### Estimated Time: 45 min
 
