@@ -33,13 +33,13 @@ increase accuracy, and improve overall productivity.
 
 **David Brown – Developer**
 
-Role: Designs and implements Power Automate Desktop flows.
-Task: Create subflows for exception handling, log into SAP Fiori, and automate the product search by supplier.
+- Role: Designs and implements Power Automate Desktop flows.
+- Task: Create subflows for exception handling, log into SAP Fiori, and automate the product search by supplier.
 
 **John Miller – Project Lead**
 
-Role: Oversees the development process and manages the project.
-Task: Ensure flow design aligns with project goals, manage timelines, and review the functionality and performance of the automation.
+- Role: Oversees the development process and manages the project.
+- Task: Ensure flow design aligns with project goals, manage timelines, and review the functionality and performance of the automation.
 
 ### Estimated Time: 60 min
 
