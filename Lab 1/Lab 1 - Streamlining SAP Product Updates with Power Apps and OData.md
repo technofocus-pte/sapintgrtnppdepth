@@ -503,13 +503,10 @@ access the SAP related pages.
 
 1.  Go to Tree View and Select Screens, Click on **Play**.
 
-    ![](./media/image69.png)
+    ![](./media/image69.1.png)
 
 
-    > Select the product, **10” Portable DVD player.** Change the Price on
-the right-side pane of the app to **349.99** from 449.99. Click on the
-**Tick Mark (UpdateButton)**. This action should trigger the
-**UpdateProducts** Power Automate flow.
+2. Select the product, **10” Portable DVD player**, click on the **Pencil** Icon, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
 
     ![](./media/image70.png)
 
