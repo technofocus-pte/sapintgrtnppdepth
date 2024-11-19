@@ -482,7 +482,7 @@ access the SAP related pages.
     ![](./media/image66.png)
 
 
-2.  Navigate to Tree view, Go to components select **UpdateButton** button and go to Properties --> Advanced option, In Advanced option enter the below given formula in **OnSelect**.
+2.  Navigate to Tree view, Go to components select **UpdateButton** button under **ProductBox** and go to Properties --> Advanced option, In Advanced option enter the below given formula in **OnSelect**.
 
     +++UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text)+++
 
