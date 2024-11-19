@@ -501,7 +501,7 @@ access the SAP related pages.
 
 ### Task 1: App Testing
 
-1.  Go to Tree View and Select Screen, Click on **Play**.
+1.  Go to Tree View and Select Screens, Click on **Play**.
 
     ![](./media/image69.png)
 
