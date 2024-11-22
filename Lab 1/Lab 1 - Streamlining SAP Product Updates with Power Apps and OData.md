@@ -494,7 +494,7 @@ access the SAP related pages.
 3.  Click on **Save** and then click on the **Screens** tab under the
     **Tree view** and then click on **ProductDetailsScreen**.
 
-     ![](./media/image68.png)
+     ![](./media/image68.1.png)
 
 
 ## Exercise 4: Test and check the App and Flow
