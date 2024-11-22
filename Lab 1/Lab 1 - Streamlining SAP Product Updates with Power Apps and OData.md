@@ -349,7 +349,7 @@ access the SAP related pages.
     ![](./media/image46.png)
 
 
-11. Click on **10” Portable DVD player** from the Products list. Click on the pencil icon, Do some
+11. Click on **10” Portable DVD player** from the Products list. Do some
     update to the Price and click on the Tick mark. When clicked, we get
     an error message,
 
@@ -492,7 +492,7 @@ access the SAP related pages.
 
 
 3.  Click on **Save** and then click on the **Screens** tab under the
-    **Tree view**.
+    **Tree view** and then click on **ProductDetailsScreen**.
 
      ![](./media/image68.png)
 
@@ -506,7 +506,7 @@ access the SAP related pages.
     ![](./media/image69.png)
 
 
-2. Select the product, **10” Portable DVD player**, click on the **Pencil** Icon, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
+2. Select the product, **10” Portable DVD player**, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
 
     ![](./media/image69.1.png)
 
