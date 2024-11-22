@@ -355,7 +355,7 @@ access the SAP related pages.
 
     > TODO: Fix the “OnSelect” formula to invoke a flow. This is because we have not defined UpdateButton yet.
 
-    ![](./media/image47.1.png)
+    ![](./media/image47.png)
 
 
 12. From the top right corner close the app.
@@ -508,7 +508,7 @@ access the SAP related pages.
 
 2. Select the product, **10” Portable DVD player**, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
 
-    ![](./media/image69.1.png)
+    ![](./media/image70.png)
 
 
 ### Task 2: Check the flow and updates
