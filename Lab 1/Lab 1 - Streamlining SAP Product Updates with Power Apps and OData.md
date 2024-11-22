@@ -349,13 +349,13 @@ access the SAP related pages.
     ![](./media/image46.png)
 
 
-11. Click on **10” Portable DVD player** from the Products list. Do some
+11. Click on **10” Portable DVD player** from the Products list. Click on the pencil icon, Do some
     update to the Price and click on the Tick mark. When clicked, we get
     an error message,
 
     > TODO: Fix the “OnSelect” formula to invoke a flow. This is because we have not defined UpdateButton yet.
 
-    ![](./media/image47.png)
+    ![](./media/image47.1.png)
 
 
 12. From the top right corner close the app.
