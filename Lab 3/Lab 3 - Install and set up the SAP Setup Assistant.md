@@ -78,17 +78,17 @@ Contoso Electronics faces challenges in efficiently managing integrations and au
 
 7. Repeat the same process to create the below given connections.
 
-    - **Office 365 Outlook**
+    - +++**Office 365 Outlook**+++
 
-    - **Office 365 Users connector**
+    - +++**Office 365 Users**+++
 
-    - **Power Apps for Makers connector**
+    - +++**Power Apps for Makers**+++
 
-    - **Power Automate Management**
+    - +++**Power Automate Management**+++
 
-    - **Power Platform for Admins connector**
+    - +++**Power Platform for Admins**+++
 
-    - **Power Query Dataflows connector**
+    - +++**Power Query Dataflows**+++
 
     ![](./media/image11.png)
 
@@ -109,8 +109,8 @@ Contoso Electronics faces challenges in efficiently managing integrations and au
     ![](./media/image13.png)
 
 
-3.  After Installation go to environment 🡪 Dev One 🡪 Dynamic 365 Page
-    and confirm the installation status.
+3.  After Installation go to environment 🡪 Dev One 🡪 Dynamic 365 apps page
+    and confirm the installation status **SAP Setup Assistance**.
 
     ![](./media/image14.png)
 
