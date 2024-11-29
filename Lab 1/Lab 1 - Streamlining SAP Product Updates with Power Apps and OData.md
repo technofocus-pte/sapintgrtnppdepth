@@ -73,7 +73,7 @@ connector to automate the retrieval and updating of product data in SAP.
     ![](./media/image5.png)
 
 
-5.  Open new tab navigate to +++https://www.outlook.com/+++ and sign in, Open the email from the sender **SAP Universal ID - Notification**
+5.  Open new tab navigate to +++https://www.outlook.com/+++ and sign in with admin tenant, Open the email from the sender **SAP Universal ID - Notification**
     in your registered mailbox and click on **Click to activate your
     account.**
 
@@ -291,7 +291,7 @@ access the SAP related pages.
 
     ![](./media/image35.png)
 
-2.  In Import app click on the **From File (.msapp)**, browse app file name **SAP EPM Products Demo Starter.msapp** from **C:\Lab Files** and import the app.
+2.  In Import app click on the **From File (.msapp)**, browse app file name **SAP EPM Products Demo Starter.msapp** from **C:\LabFiles** and import the app.
 
     ![](./media/image37.png)
 
