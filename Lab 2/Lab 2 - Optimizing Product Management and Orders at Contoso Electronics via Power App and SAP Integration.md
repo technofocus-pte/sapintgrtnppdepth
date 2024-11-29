@@ -586,8 +586,7 @@ settings.
 
 ### Task 6: Add Customer Information section
 
-1.  Click on **Order Summary**, Go to Insert. Search and Select +++**Text
-    Label**+++.
+1.  Click on **Order Summary**, Go to Insert. Search and Select +++**Text Label**+++.
 
     ![](./media/image81.png)
 
@@ -598,15 +597,13 @@ settings.
     ![](./media/image82.png)
 
 
-3.  Double click on each label one by one and enter the text as +++Full
-    Name+++, +++Phone Number+++, +++Address+++. The final output show as given below
+3.  Double click on each label one by one and enter the text as +++Full Name+++, +++Phone Number+++, +++Address+++. The final output show as given below
     image. Readjust the label if required.
 
     ![](./media/image83.png)
 
 
-4.  Select **Order Summary**, go to Insert. Search and select for +++**Text
-    Input**+++ .
+4.  Select **Order Summary**, go to Insert. Search and select for +++**Text Input**+++ .
 
     ![](./media/image84.png)
 
