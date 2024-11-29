@@ -152,19 +152,6 @@ Contoso Electronics faces challenges in efficiently managing integrations and au
 
     - **SAP Setup Assistant - Power Query Dataflows**
 
-## Task 4: Turn on Cloud Flow
-
-1.  From the left navigation pane click on **Solution**, then click on
-    **Manged** and select and open **SAP Setup Assistant**.
-
-    ![](./media/image18.png)
-
-
-2.  From the left navigation pane, select **Cloud Flows**. Locate any
-    flows showing an **Off** status and turn them **On**.
-
-    ![](./media/image19.png)
-
 
 ## Task 5: Use the SAP Setup Assistant
 
