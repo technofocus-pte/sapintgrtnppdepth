@@ -81,7 +81,7 @@ To address these challenges, Contoso Electronics will build a Power App connecte
 
 
 3.  Search SAP OData in the search bar from top right corner and then
-    select **SAP OData.**
+    select +++**SAP OData**+++
 
     ![](./media/image9.png)
 
@@ -227,7 +227,7 @@ settings.
     ![](./media/image28.png)
 
 
-2.  In the Search bar of Add data search for **SAP OData** and then select
+2.  In the Search bar of Add data search for +++**SAP OData**+++  and then select
     **SAP OData**.
 
     ![](./media/image29.png)
@@ -367,7 +367,7 @@ settings.
     | Fill Colour | White  |
     | Text | Reload  |
 
-    ![](./media/image49.png)
+    ![](./media/image49.1.png)
 
 
 16. Click on **Reload** button and Select **OnSelect** and add the below
