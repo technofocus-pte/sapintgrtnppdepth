@@ -149,7 +149,7 @@ ensuring accuracy and efficiency in operations.
 
 3.  From top left corner rename the flow as +++**SAP Product Category**+++.
 
-    ![](./media/image31.png)
+    ![](./media/image31.1.png)
 
 
 4.  Click on the **Run a flow from copilot** and select **+ Add an
