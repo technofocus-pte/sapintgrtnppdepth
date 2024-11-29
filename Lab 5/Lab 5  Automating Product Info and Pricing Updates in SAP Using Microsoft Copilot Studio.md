@@ -461,29 +461,49 @@ Category, Name, Description and Price.+++
     +++
     {
     "type": "AdaptiveCard",
+    
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    
     "version": "1.3",
+    
     "body":[
+    
         {
             "type": "Input.Text",
+    
             "placeholder": "Placeholder text",
+    
             "id": "1",
+    
             "label": "Product ID"
+    
             },
+    
             {
+    
                 "type": "Input.Number",
+    
                 "placeholder": "Placeholder text",
+    
                 "id": "2",
 
                 "label": "Updated Price"
+    
                 },
+    
                 {
                     "type": "ActionSet",
-                    "actions": 
+    
+                    "actions":
+    
                     [
+    
                         {
+    
                             "type": "Action.Submit",
+    
                             "title": "Submit"
+    
                             }
                             ]
                             }
