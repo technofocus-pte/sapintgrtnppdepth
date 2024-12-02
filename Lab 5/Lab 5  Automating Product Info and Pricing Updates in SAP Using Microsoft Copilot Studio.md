@@ -68,7 +68,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image20.png)
 
 
-2.  Enter the login **admin tenant login ID** and click
+2.  Enter the login **Admin tenant login ID** and click
     on the Next.
 
     ![](./media/image21.png)
@@ -198,7 +198,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image38.png)
 
 
-11. In **\$Top** section enter **10,** which will return top 10 product.
+11. In **\$Top** section enter **10**, which will return top 10 product.
 
     ![](./media/image39.1.png)
 
@@ -331,8 +331,8 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image61.png)
 
 
-4.  In the Input Parameter click on the edit input button and add the
-    description as given below and the click on save button.
+4.  In the Input Parameter click on the **Edit input** button and add the
+    description as given below and the click on **Save** button.
 
     > **Description:** +++Product Category. One of the following categories can be used. The name has to be exactly like this: Accessories, Notebooks, Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers, Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors, MP3 Players, Camcorders.+++
 
@@ -342,12 +342,12 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image63.png)
 
 
-5.  Click on the outputs and then select edit outputs.
+5.  Click on the **Outputs** and then select **Edit outputs**.
 
     ![](./media/image64.png)
 
 
-6.  Enter the given below given description and click on the save
+6.  Enter the given below given description and click on the **Save**
     button.
 
     > **Description:** +++List of SAP products for a provided product category. Return the result as table including following information: ProductID, Category, Name, Description and Price.+++
@@ -364,21 +364,21 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image67.png)
 
 
-10. Click on the Test Button place as the top right side and enter the
+10. Click on the **Test** Button place as the top right side and enter the
     prompt +++Notebooks+++ in the respected field. It will return the connect
-    request. Click on the connect to give permission. After select
+    request. Click on the **Connect** to give permission. After select
     connect, it will redirect to connection window.
 
     ![](./media/image70.png)
 
 
-11. In the Manage your connections window click on the connect button.
+11. In the Manage your connections window click on the **Connect** button.
 
     ![](./media/image71.png)
 
 
 12. Click on the three dots on SAP OData and select **SAP-Product-100**
-    connection. After selecting the connection click on the Submit
+    connection. After selecting the connection click on the **Submit**
     button.
 
     ![](./media/image72.png)
@@ -421,14 +421,14 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image78.png)
 
 
-6.  Click on the + Sign below message node and add Ask with adaptive
+6.  Click on the + Sign below message node and add **Ask with adaptive**
     card node.
 
     ![](./media/image79.png)
 
 
 7.  Click on the three dots on adaptive card and click on the
-    properties.
+    **Properties**.
 
     ![](./media/image80.png)
 
@@ -518,7 +518,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image85.png)
 
 
-14. In the Action select Var1 for Product ID and Var2 for Update Price.
+14. In the Action select **Var1** for Product ID and **Var2** for Update Price.
 
     ![](./media/image86.png)
 
@@ -526,35 +526,35 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image87.png)
 
 
-15. Below Action node, click on + sign and add Message node, in message
+15. Below Action node, click on + sign and add **Message node**, in message
     node enter the flowing message. +++**Product Var1 price is updated.
-    Thankyou.**+++ Replace **Var1** with Variable Var1 with the help of
+    Thankyou.**+++ Replace **Var1** with Variable **Var1** with the help of
     {x} button.
 
     ![](./media/image88.png)
 
-16. From top right corner, click on the Save button.
+16. From top right corner, click on the **Save** button.
 
     ![](./media/image88.1.png)
 
 
 
-17. Click on the Test button and enter the prompt +++Update Price+++. Then
-    fill in the Product ID +++HT-1001+++ and price +++1540+++, click on submit.
+17. Click on the **Test** button and enter the prompt +++Update Price+++. Then
+    fill in the Product ID +++HT-1001+++ and price +++1540+++, click on **Submit**.
     After clicking on submit a message show to connect. Click on the
-    connect.
+    **Connect**.
 
     ![](./media/image89.png)
 
 
 18. It will navigate to another window which manages the connections. Click
-    on the connect button of Update Product Price.
+    on the **connect** button of Update Product Price.
 
     ![](./media/image90.png)
 
 
 19. Click on the three dots and select connection SAP-Product-100 then
-    click on submit button.
+    click on **submit** button.
 
     ![](./media/image91.png)
 
@@ -587,7 +587,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image96.1.png)
 
 
-4.  On the new window click on the Use the web app instead.
+4.  On the new window click on the **Use the web app instead**.
 
     ![](./media/image97.png)
 
