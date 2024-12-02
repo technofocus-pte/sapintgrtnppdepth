@@ -379,13 +379,6 @@ Category, Name, Description and Price.+++
     ![](./media/image68.png)
 
 
-9.  Go to **Output** section and check the box **Respond to the user
-    after running this action**. After checking the box click on the save
-    button.
-
-    ![](./media/image69.png)
-
-
 10. Click on the Test Button place as the top right side and enter the
     prompt +++Notebooks+++ in the respected field. It will return the connect
     request. Click on the connect to give permission. After select
