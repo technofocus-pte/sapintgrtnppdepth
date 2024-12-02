@@ -585,7 +585,7 @@ Category, Name, Description and Price.+++
 
     ![](./media/image92.png)
 
-21. Click on the publish button to save the copilot setting
+21. Go back to copilot window and Click on the **publish** button to save the copilot setting
 
     ![](./media/image93.png)
 
