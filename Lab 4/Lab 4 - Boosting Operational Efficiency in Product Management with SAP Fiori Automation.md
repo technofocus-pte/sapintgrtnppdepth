@@ -410,7 +410,7 @@ element and select Rename. Rename it as +++Heading+++.
 
 ## Task 1: Add Sub Workflow
 
-1.  From the Power Automate flow page, click on the Subflows -\+ New
+1.  From the Power Automate flow page, click on the Subflows - + New
     subflow.
 
     ![](./media/image54.png)
@@ -555,7 +555,7 @@ execution.
     ![](./media/image71.png)
 
 8.  Add an action, +++Send Keys+++. Select Tab key from Insert Special
-    Keys -\Misc -\Tab. Click on Save.  
+    Keys - Misc - Tab. Click on Save.  
 
     ![](./media/image72.png)
 
