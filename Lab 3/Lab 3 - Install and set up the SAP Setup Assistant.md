@@ -21,22 +21,6 @@ Contoso Electronics faces challenges in efficiently managing integrations and au
 - Activate cloud flows to automate processes, eliminating the need for manual intervention and improving workflow efficiency.
 - This solution will help Contoso Electronics streamline its operations by improving connectivity, automating tasks, and ensuring real-time SAP data access.
 
-## Persona
-
-**David Headsoon – Power Platform Administrator**
-
-- Role: David is responsible for setting up and managing connections within the Power Platform environment. He ensures that all integrations, including SAP and Office 365, are properly configured and functioning.
-- Tasks: David will create and configure various connections, including Microsoft Dataverse, Power Automate, and SAP. He will install the SAP Setup Assistant, update connection references, and turn on cloud flows to ensure smooth integration.
-
-**Paula Mathew – Business Analyst / App Maker**
-
-- Role: Paula is a business analyst who will be utilizing the configured connections and activated cloud flows to build applications and automate business workflows.
-- Tasks: Paula will use the SAP Setup Assistant app to streamline data access and automate processes. She will rely on the configured connections to build apps that leverage SAP data for business operations, improving internal efficiency and decision-making.
-
-**John Miller – Project Lead**
-
-- Role: John oversees the entire integration project, ensuring that all configurations meet the business requirements and the system functions as expected.
-- Tasks: John defines the project scope, ensures that the system meets business needs, coordinates with Ravi and Asha, and confirms the successful activation of all cloud flows. He will also verify that the SAP Setup Assistant app is fully operational and the integrations are working as intended.
 
 **Estimated Time:** 20 mins
 
