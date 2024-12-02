@@ -334,11 +334,7 @@ ensuring accuracy and efficiency in operations.
 4.  In the Input Parameter click on the edit input button and add the
     description as given below and the click on save button.
 
-    > **Description:** +++Product Category. One of the following categories can
-be used. The name has to be exactly like this: Accessories, Notebooks,
-Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers,
-Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors, MP3
-Players, Camcorders.+++
+    > **Description:** +++Product Category. One of the following categories can be used. The name has to be exactly like this: Accessories, Notebooks, Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers, Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors, MP3 Players, Camcorders.+++
 
     ![](./media/image62.png)
 
@@ -354,9 +350,7 @@ Players, Camcorders.+++
 6.  Enter the given below given description and click on the save
     button.
 
-    > **Description:** +++List of SAP products for a provided product category.
-Return the result as table including following information: ProductID,
-Category, Name, Description and Price.+++
+    > **Description:** +++List of SAP products for a provided product category. Return the result as table including following information: ProductID, Category, Name, Description and Price.+++
 
     ![](./media/image65.png)
 
