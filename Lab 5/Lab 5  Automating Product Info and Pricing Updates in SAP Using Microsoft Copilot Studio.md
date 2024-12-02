@@ -204,7 +204,7 @@ ensuring accuracy and efficiency in operations.
 
 11. In **\$Top** section enter **10,** which will return top 10 product.
 
-    ![](./media/image39.png)
+    ![](./media/image39.1.png)
 
 
 12. Click on the **Respond to Copilot** option and click on **Add an
