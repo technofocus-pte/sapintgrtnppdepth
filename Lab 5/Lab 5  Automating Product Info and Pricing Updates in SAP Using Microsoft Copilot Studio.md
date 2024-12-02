@@ -582,9 +582,9 @@ ensuring accuracy and efficiency in operations.
 
 
 3.  Now teams are connected successfully, now click on the **Open
-    Copilot** a new window will open.
+    Agent** a new window will open.
 
-    ![](./media/image96.png)
+    ![](./media/image96.1.png)
 
 
 4.  On the new window click on the Use the web app instead.
