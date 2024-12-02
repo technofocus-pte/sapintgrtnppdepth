@@ -213,7 +213,7 @@ increase accuracy, and improve overall productivity.
 | Variable | Click on NewVar, select the x symbol and select the output variable – Processingresults |
 | Value | +++## Exception ## - %LastError%+++ |
 
-    ![](./media/image25.png)
+![](./media/image25.png)
 
 
 5.  Now, add an action +++Stop flow+++, which will stop the flow if
@@ -309,7 +309,7 @@ button that you are clicking on is highlighted, to ensure that your
 action is being recorded by the recorder. (Like the Logon button is
 highlighted in the screenshot below).
 
-    ![](./media/image38.png)
+![](./media/image38.png)
 
 9.  After recording, click on **Pause** button place at top and look for
     the recorded value in the recorder. Click on Arrow next to Text and
