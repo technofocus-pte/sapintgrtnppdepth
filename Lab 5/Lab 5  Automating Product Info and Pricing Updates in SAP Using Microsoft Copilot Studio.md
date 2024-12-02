@@ -652,7 +652,7 @@ again.
 5.  After entering the Product ID and Price confirmation message
     appears.
 
-    ![](./media/image103.png)
+    ![](./media/image103.1.png)
 
 
 6.  To confirm the updation, go to +++https://sapes5.sapdevcenter.com/+++ ,
