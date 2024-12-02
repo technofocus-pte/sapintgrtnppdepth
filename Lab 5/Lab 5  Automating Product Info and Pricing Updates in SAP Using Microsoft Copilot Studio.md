@@ -110,13 +110,9 @@ ensuring accuracy and efficiency in operations.
 
     1.  **Name:** +++SAP Product Copilot+++
 
-    2.  **Description:** +++The Copilot allows you to integrate SAP system
-        and fetch product information live from SAP and update price of
-        products.+++
+    2.  **Description:** +++The Copilot allows you to integrate SAP system and fetch product information live from SAP and update price of products.+++
 
-    3.  **Instructions:** +++The copilot must check the available product
-        in SAP system and provide the product information as per the
-        requirement and update the price of the product.+++
+    3.  **Instructions:** +++The copilot must check the available product in SAP system and provide the product information as per the requirement and update the price of the product.+++
 
     ![](./media/image27.png)
 
