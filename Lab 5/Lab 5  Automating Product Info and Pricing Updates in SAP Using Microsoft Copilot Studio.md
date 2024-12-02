@@ -556,7 +556,7 @@ Category, Name, Description and Price.+++
     ![](./media/image88.png)
 
 
-16. Click on the Test button and enter the prompt Update Price. Then
+16. Click on the Test button and enter the prompt +++Update Price+++. Then
     fill in the Product ID +++HT-1001+++ and price +++1540+++, click on submit.
     After clicking on submit a message show to connect. Click on the
     connect.
