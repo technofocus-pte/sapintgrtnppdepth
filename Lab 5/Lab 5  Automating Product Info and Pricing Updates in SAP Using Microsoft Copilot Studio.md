@@ -648,6 +648,9 @@ action. To proceed, please select 'Connect', and review any missing
 connections. Click on connect and apply the same steps as we perform
 before. After connection created back to teams and then type prompt
 again.
+  
+    ![](./media/image92.png)
+
 
 5.  After entering the Product ID and Price confirmation message
     appears.
