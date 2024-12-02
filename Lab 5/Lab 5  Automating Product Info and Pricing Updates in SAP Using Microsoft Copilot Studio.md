@@ -629,7 +629,7 @@ again.
 
 2.  It returns the information of the Notebooks from SAP System.
 
-    ![](./media/image100.png)
+    ![](./media/image101.1.png)
 
 
 3.  Then give another prompt, +++**Update price of product.**+++
