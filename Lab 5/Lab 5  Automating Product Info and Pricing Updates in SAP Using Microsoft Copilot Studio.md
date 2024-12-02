@@ -459,7 +459,7 @@ Category, Name, Description and Price.+++
     properties.
 
     +++
-    
+    ```
     {
     "type": "AdaptiveCard",
     
@@ -510,7 +510,7 @@ Category, Name, Description and Price.+++
                             }
                             ]
                             }
-    
+    ```
     +++
 
     ![](./media/image81.png)
