@@ -639,7 +639,7 @@ again.
     ![](./media/image100.png)
 
 
-3.  Then give another prompt, +++**I want to update price of product.**+++
+3.  Then give another prompt, +++**Update price of product.**+++
 
     ![](./media/image101.png)
 
