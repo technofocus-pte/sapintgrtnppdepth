@@ -364,11 +364,6 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image67.png)
 
 
-8.  Go to the action section and then select the SAP Product Category action.
-
-    ![](./media/image68.png)
-
-
 10. Click on the Test Button place as the top right side and enter the
     prompt +++Notebooks+++ in the respected field. It will return the connect
     request. Click on the connect to give permission. After select
