@@ -555,8 +555,13 @@ Category, Name, Description and Price.+++
 
     ![](./media/image88.png)
 
+16. From top right corner, click on the Save button.
 
-16. Click on the Test button and enter the prompt +++Update Price+++. Then
+    ![](./media/image88.1.png)
+
+
+
+17. Click on the Test button and enter the prompt +++Update Price+++. Then
     fill in the Product ID +++HT-1001+++ and price +++1540+++, click on submit.
     After clicking on submit a message show to connect. Click on the
     connect.
@@ -564,23 +569,23 @@ Category, Name, Description and Price.+++
     ![](./media/image89.png)
 
 
-17. It will navigate to another window which manages the connections. Click
+18. It will navigate to another window which manages the connections. Click
     on the connect button of Update Product Price.
 
     ![](./media/image90.png)
 
 
-18. Click on the three dots and select connection SAP-Product-100 then
+19. Click on the three dots and select connection SAP-Product-100 then
     click on submit button.
 
     ![](./media/image91.png)
 
 
-19. After completing it shows connected.
+20. After completing it shows connected.
 
     ![](./media/image92.png)
 
-20. Click on the publish button to save the copilot setting
+21. Click on the publish button to save the copilot setting
 
     ![](./media/image93.png)
 
