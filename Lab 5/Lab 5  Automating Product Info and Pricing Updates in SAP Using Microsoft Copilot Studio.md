@@ -520,7 +520,7 @@ Category, Name, Description and Price.+++
     1** variable click on select a variable and then click on the create
     new, a new variable **Var1** is created.
 
-    ![](./media/image82.png)
+      ![](./media/image82.png)
 
 
 11. Repeat the same process for the next output **Var2** is created.
