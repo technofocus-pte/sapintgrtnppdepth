@@ -19,22 +19,7 @@ To address these challenges, Contoso Electronics will build a Power App connecte
 - Easily add products to their cart and place orders directly through the app.
 - Enjoy a smooth, user-friendly interface that simplifies the product discovery and ordering process, leading to a more efficient customer journey.
 
-## Persona
 
-**David Brown – App Developer**
-
-- Role: Develops the Power App and integrates it with SAP.
-- Tasks: Sets up SAP OData connection, designs UI for product browsing and ordering, ensures smooth checkout process, tests app functionality.
-
-**Sarah Lee – Customer**
-
-- Role: A customer browsing products.
-- Tasks: Browses products, views details (price, availability), adds items to the cart, places an order. Adds products to cart, proceeds to checkout, submits the order.
-
-**John Miller – Project Lead**
-
-- Role: Oversees the development and deployment of the app.
-- Tasks: Defines project requirements, coordinates with the team, ensures the app meets business and customer needs.
 
 ### Estimated Time : 45 mins
 
