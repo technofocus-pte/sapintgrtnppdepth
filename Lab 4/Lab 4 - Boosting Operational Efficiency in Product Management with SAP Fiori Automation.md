@@ -289,7 +289,7 @@ under the Browser automation actions in the Power Automate.
     ![](./media/image32.png)
 
 
-6.  This opens the **Fiori login page** in a new Chrome browser.
+6.  This opens the **Fiori login page** in a new Chrome browser. 
 
     > **Note:** To see this log in page, check that Fiori page is not already
 open on your browser. If opened, log out from the page and again run the
@@ -298,19 +298,22 @@ action.
     ![](./media/image33.png)
 
 
-7.  From here, we can record the series of events to login to the
-    system. Stop the flow and Click on **Recorder** on the Power Automate flow screen.
+
+8.  From here, we can record the series of events to login to the
+    system. **Stop** the flow and click on the **Record** and the from top right corner .Then click on the **Next**. Click on **Recorder** on the Power Automate flow screen.
+
+    ![](./media/image34.1.png)
 
     ![](./media/image34.png)
 
 
-8.  The Recorder gets opened. Have the **SAP Fiori login page** open and
+9.  The Recorder gets opened. Have the **SAP Fiori login page** open and
     click on **Record** in Recorder pane.
 
     ![](./media/image35.png)
 
 
-9.  Select the **User ID** field and enter the SAP User ID into that,
+10.  Select the **User ID** field and enter the SAP User ID into that,
     Then click on **Password field** and enter SAP Password. In last
     click on the **Log On** button
 
@@ -322,31 +325,31 @@ in the screenshot below).
     ![](./media/image36.png)
 
 
-10. The sequence of events of logging into the system will get recorded
+11. The sequence of events of logging into the system will get recorded
     by the recorder now.
 
-11. After recording, click on pause button place at top and look for the
+12. After recording, click on pause button place at top and look for the
     recorded value in the recorder. Click on Arrow next to **Text** and
     select **Variable**.
 
     ![](./media/image37.png)
 
 
-12. Once Variable is selected, select **SAPUserID** from the variable
+13. Once Variable is selected, select **SAPUserID** from the variable
     names.
 
     ![](./media/image38.png)
 
 
-13. Then change the variable name for the Password as +++**SAPPassword**+++.
+14. Then change the variable name for the Password as +++**SAPPassword**+++.
 
-14. In the Recorder window, the recorded events should look similar to
+15. In the Recorder window, the recorded events should look similar to
     the events in the screenshot below. Click on **Done**.
 
     ![](./media/image39.png)
 
 
-15. The subflow **SAP_Logon** should look similar to the one in the
+16. The subflow **SAP_Logon** should look similar to the one in the
     screenshot below. Click on **Save** icon to save the flow.
 
     ![](./media/image40.png)
@@ -355,27 +358,27 @@ in the screenshot below).
     > **Note:** If there is an extra Launch new chrome action is added, right
 click on it, and select Delete. There should be only one launch action.
 
-16. Close the chrome browser and right click on the **Launch new
+17. Close the chrome browser and right click on the **Launch new
     chrome** action from the **Power Automate** **SAP_Logon** sub flow
     to check if the flow is working fine.
 
     ![](./media/image41.png)
 
 
-17. The flow would open a new Chrome browser, type in the **User** and
+18. The flow would open a new Chrome browser, type in the **User** and
     **Password** details, click on the **Logon** button and opens up the
     **SAP Fiori**.
 
     ![](./media/image42.png)
 
 
-18. Back in the Power Automate Desktop flow, click on the UI Elements
+19. Back in the Power Automate Desktop flow, click on the UI Elements
     icon from the right pane and select **Add UI element**.
 
     ![](./media/image43.png)
 
 
-19. Open the chrome browser with the **SAP Fiori** open and capture the
+20. Open the chrome browser with the **SAP Fiori** open and capture the
     UI element **Purchase EPM**. To do this hover over the Purchase EPM
     Heading. Once you get it surrounded by the **Red box**, press **Ctrl
     button** and perform a **left click** at the same time.
@@ -383,12 +386,12 @@ click on it, and select Delete. There should be only one launch action.
     ![](./media/image44.png)
 
 
-20. This will add an entry in the UI element pane. Click on **Done**.
+21. This will add an entry in the UI element pane. Click on **Done**.
 
     ![](./media/image45.png)
 
 
-21. Back in the Power Automate screen, right click on the added UI
+22. Back in the Power Automate screen, right click on the added UI
     element and select **Rename.** Rename it as +++**Heading**+++.
 
     ![](./media/image46.png)
@@ -397,18 +400,18 @@ click on it, and select Delete. There should be only one launch action.
     ![](./media/image47.png)
 
 
-22. Add an action, +++**wait for web page content**+++ as the last step in the
+23. Add an action, +++**wait for web page content**+++ as the last step in the
     **SAP_Logon** subflow. Select **Heading** under the UI element
     option and click on **Save**.
 
     ![](./media/image48.png)
 
 
-23. Click on **Save** icon to save the flow. Now, we have a flow which
+24. Click on **Save** icon to save the flow. Now, we have a flow which
     will open the SAP Fiori in a new Chrome browser, will logon to the
     system and wait till the page is loaded.
 
-24. Close the browser that is opened while testing and then check the
+25. Close the browser that is opened while testing and then check the
     flow by performing a right click on the first action and select
     **Run from here**.
 
