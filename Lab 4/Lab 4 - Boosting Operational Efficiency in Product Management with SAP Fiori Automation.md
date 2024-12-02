@@ -299,7 +299,7 @@ action.
 
 
 7.  From here, we can record the series of events to login to the
-    system. Click on **Recorder** on the Power Automate flow screen.
+    system. Stop the flow and Click on **Recorder** on the Power Automate flow screen.
 
     ![](./media/image34.png)
 
