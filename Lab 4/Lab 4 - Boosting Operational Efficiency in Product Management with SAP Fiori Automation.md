@@ -118,7 +118,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image14.png)
 
 
-2.  On the New input variable pane, provide the following details and
+2.  On the New input variable pane, enter the following details and
     then click on **Save**.
 
     | **Property**      | **Value**                         |
@@ -133,7 +133,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image15.png)
 
 
-3.  Similarly, to add an input variable, click on **+sign** next to
+3.  Similarly, to add a new input variable, click on **+sign** next to
     Input/output variables.
 
     ![](./media/image16.png)
@@ -178,9 +178,7 @@ increase accuracy, and improve overall productivity.
 
 ## Exercise 2: Add a sub flow for Exception Handling 
 
-1.  We will add Exception handling in order to handle scenarios like
-    some window is not available or any UI click event failure and so
-    on.
+1.  We will add Exception handling in order to handle scenarios like some window is not available or any UI click event failure and so on.
 
 2.  Create a **Subflow** by clicking on **SubFlows** -\> **New
     subflow.**
@@ -193,9 +191,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image22.png)
 
 
-4.  In the search bar of the Actions pane, type +++**Get last error**+++ and
-    double click on the action **Get last error** to add it to the
-    **ExceptionHandler** subflow and click on **Save**.
+4.  In the search bar of the Actions pane, type +++**Get last error**+++ and double click on the action **Get last error** to add it to the **ExceptionHandler** subflow and click on **Save**.
 
     ![](./media/image23.png)
 
@@ -252,10 +248,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image29.png)
 
 
-4.  Double click on the **Launch new Microsoft Edge** action on to the SAP_Logon subflow screen.
-
-    Under Select parameters, provide the following details and then click on
-**Save**.
+4.  Double click on the **Launch new Microsoft Edge** action on to the SAP_Logon subflow screen. Under Launch new Microsoft Edge, provide the following details and then click on **Save**.
 
     | **Property** | **Value** |
     |----|----|
@@ -266,8 +259,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image30.png)
 
 
-    > **Note:** You can use the browser of your choice from the list available
-under the Browser automation actions in the Power Automate.
+    > **Note:** You can use the browser of your choice from the list available under the Browser automation actions in the Power Automate.
 
     ![](./media/image31.png)
 
@@ -277,7 +269,7 @@ under the Browser automation actions in the Power Automate.
     ![](./media/image32.png)
 
 
-6.  This opens the **Fiori login page** in a new Chrome browser. 
+6.  This opens the **Fiori login page** in a new Edge browser. 
 
     > **Note:** To see this log in page, check that Fiori page is not already
 open on your browser. If opened, log out from the page and again run the
@@ -287,16 +279,23 @@ action.
 
 
 
-8.  From here, we can record the series of events to login to the
-    system. **Stop** the flow and click on the **Record** and the from top right corner .Then click on the **Next**. Click on **Recorder** on the Power Automate flow screen.
+8.  Click on the **Stop** flow button from the top bar of the flow and then click on the **Record** button.
+
+    ![](./media/image34.2.png)
+
+    ![](./media/image34.3.png)
+
+
+9. Recorder will started click on the **Record** Button and the select **Next**. 
 
     ![](./media/image34.1.png)
 
-    ![](./media/image34.png)
+10. Then Again click on the record button. It pop bup the Get Extension window. Click on the **Get Extension** button and then **Turn on**. 
+    
+    ![](./media/image34.5.png)
 
 
-9.  The Recorder gets opened. Have the **SAP Fiori login page** open and
-    click on **Record** in Recorder pane.
+9.  Then click on **Record** in Recorder pane.
 
     ![](./media/image35.png)
 
@@ -307,7 +306,7 @@ action.
 
     > **Note:** While logging in, ensure that the text field or the button that you are clicking on is highlighted, to ensure that your action is being recorded by the recorder. (Like the Logon button is highlighted in the screenshot below).
 
-    ![](./media/image36.png)
+![](./media/image36.png)
 
 
 11. The sequence of events of logging into the system will get recorded
@@ -343,9 +342,7 @@ action.
     > **Note:** If there is an extra Launch new chrome action is added, right
 click on it, and select Delete. There should be only one launch action.
 
-17. Close the chrome browser and right click on the **Launch new
-    chrome** action from the **Power Automate** **SAP_Logon** sub flow
-    to check if the flow is working fine.
+17. Close the Edge browser and right click --> **Run form here** on the **Launch new Microsoft Edge** action from the **Power Automate** **SAP_Logon** sub flow to check if the flow is working fine.
 
     ![](./media/image41.png)
 
