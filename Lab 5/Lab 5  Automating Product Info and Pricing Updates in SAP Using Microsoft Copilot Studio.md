@@ -629,12 +629,12 @@ again.
 
 2.  It returns the information of the Notebooks from SAP System.
 
-    ![](./media/image101.1.png)
+    ![](./media/image100.png)
 
 
 3.  Then give another prompt, +++**Update price of product.**+++
 
-    ![](./media/image101.png)
+    ![](./media/image101.1.png)
 
 
 4.  Now it returns the adaptive card, enter Product ID +++HT-1001+++ and in
