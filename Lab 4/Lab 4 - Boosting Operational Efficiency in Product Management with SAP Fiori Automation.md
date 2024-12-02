@@ -305,10 +305,7 @@ action.
     Then click on **Password field** and enter SAP Password. In last
     click on the **Log On** button
 
-    > **Note:** While logging in, ensure that the text field or the button
-that you are clicking on is highlighted, to ensure that your action is
-being recorded by the recorder. (Like the Logon button is highlighted
-in the screenshot below).
+    > **Note:** While logging in, ensure that the text field or the button that you are clicking on is highlighted, to ensure that your action is being recorded by the recorder. (Like the Logon button is highlighted in the screenshot below).
 
     ![](./media/image36.png)
 
