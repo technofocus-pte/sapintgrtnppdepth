@@ -305,7 +305,7 @@ ensuring accuracy and efficiency in operations.
     ![](./media/image57.png)
 
 
-14. Click on the **Save and draft** and then click on **Publish**.
+14. Click on the **Save draft** and then click on **Publish**.
 
     ![](./media/image58.png)
 
