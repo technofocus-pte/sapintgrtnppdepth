@@ -221,7 +221,7 @@ ensuring accuracy and efficiency in operations.
 
     ![](./media/image42.png)
 
-15. **Save** and **Publish** the copilot.
+15. **Save** and **Publish** the Power automate flow.
 
     ![](./media/image43.png)
 
