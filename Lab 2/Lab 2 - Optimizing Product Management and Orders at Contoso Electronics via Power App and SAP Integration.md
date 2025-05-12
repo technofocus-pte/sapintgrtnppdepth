@@ -650,7 +650,7 @@ settings.
     click on the **Add to cart** button. After that click on **Go to
     Cart** Button.
 
-    ![](./media/image94.png)
+![](./media/image94.png)
 
 
 3.  Enter the **Full Name Phone Number and Address** and then click on
