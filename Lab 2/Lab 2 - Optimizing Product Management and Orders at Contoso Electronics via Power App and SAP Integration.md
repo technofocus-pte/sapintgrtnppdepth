@@ -95,30 +95,34 @@ To address these challenges, Contoso Electronics will build a Power App connecte
 
 ### Task 1: Create Contoso Power apps
 
-1.  From the left-hand navigation bar select on the **+ Create** and
-    then select **Blank app.**
+1.  From the left-hand navigation bar click on the **+ Create** and then select **Start with a blank canvas**.
 
-    ![](./media/image12.png)
-
-
-2.  Then create on **Create** button in the Blank canvas app and start
-    creating Contoso power app.
-
-    ![](./media/image13.png)
+    ![](./media/Picture1.png)
 
 
-3.  In the App name enter +++**Contoso Product App**+++, select **Tablet** as
-    format and then click on **Create**.
+2.  Then click on **Responsive and start creating app**
 
-    ![](./media/image14.png)
+    ![](./media/Picture2.png)
 
+3.	Welcome to Power Apps Studio window will open click on **Skip**.
 
-4.  Welcome to Power Apps Studio window will open click on **Skip**.
-
-    ![](./media/image15.png)
+    ![](./media/Picture3.png)
 
 
-5.  Navigate to **Tree view**, click on three dots on **Screen 1** (…)
+4.	Click on the **New Screen** and select **Blank Screen**
+
+    ![](./media/Picture4.png)
+
+5.	Click on the **Screen 1 (…)** and **Delete** the screen.
+
+    ![](./media/Picture5.png)
+
+6. Click on the **Save** button from top and enter **Contoso Product App** as name of the app and select **Save**.
+
+    ![](./media/Picture6.png)
+
+
+6.  Navigate to **Tree view**, click on three dots on **Screen 2** (…)
     and the select **Rename**. Enter the name as +++**Product List**+++
 
     ![](./media/image16.png)
