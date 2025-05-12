@@ -480,7 +480,6 @@ settings.
     |-------------|------------|
     | Text colour | Blue       |
     | Fill Colour | White      |
-    | Text | Go to Cart      |
 
     ![](./media/image69.png)
 
