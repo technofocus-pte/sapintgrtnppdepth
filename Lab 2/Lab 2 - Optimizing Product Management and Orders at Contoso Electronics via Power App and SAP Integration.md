@@ -504,7 +504,6 @@ settings.
     |-------------|-------|
     | Text Colour | Blue  |
     | Fill Colour | White |
-    | Text    | Back |
 
     ![](./media/image72.png)
 
