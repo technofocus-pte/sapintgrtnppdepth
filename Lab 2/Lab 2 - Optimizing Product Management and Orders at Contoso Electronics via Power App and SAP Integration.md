@@ -273,7 +273,6 @@ settings.
     |-----------------|-------------|
     | ProdName        | Name        |
     | ProdPrice       | Price       |
-    | ProdDescription       | Description       |
 
     ![](./media/image37.png)
 
