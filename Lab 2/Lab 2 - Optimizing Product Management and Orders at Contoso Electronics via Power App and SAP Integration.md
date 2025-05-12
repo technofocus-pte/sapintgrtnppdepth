@@ -240,7 +240,7 @@ settings.
 
 
 6.  Select the **ProductSet** as the data source into the vertical
-    gallery.
+    gallery and adjust the gallery as shown in image.
 
     ![](./media/image33.png)
 
