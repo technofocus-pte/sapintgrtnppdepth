@@ -424,7 +424,7 @@ settings.
     ![](./media/image60.png)
 
 
-2.  Go to **Screen 2**. Click on (…) three dots and select **Rename**.
+2.  Go to **Screen 3**. Click on (…) three dots and select **Rename**.
     Rename the screen 2 as +++**Order Summary**+++.
 
     ![](./media/image61.png)
@@ -436,7 +436,7 @@ settings.
     ![](./media/image62.png)
 
 
-4.  Select **Order Screen**, go to **Insert** then search and select
+4.  Select **Order Summary Screen**, go to **Insert** then search and select
     +++**Vertical Gallery**+++ .
 
     ![](./media/image63.png)
