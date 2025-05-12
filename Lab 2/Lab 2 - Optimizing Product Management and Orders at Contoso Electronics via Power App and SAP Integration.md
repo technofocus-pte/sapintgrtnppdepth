@@ -353,7 +353,6 @@ settings.
     |-------------|--------|
     | Text Colour | Blue   |
     | Fill Colour | White  |
-    | Text | Reload  |
 
     ![](./media/image49.1.png)
 
