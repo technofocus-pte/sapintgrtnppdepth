@@ -334,7 +334,7 @@ settings.
     ![](./media/image46.png)
 
 
-12. Click on the **Add to cart** button and go to formula bar, Select
+12. Click on the **CartButton** button and go to formula bar, Select
     **Onselect** and add **formula** as given below.
 
     +++Collect(Collection,{Name:ThisItem.Name,Price:ThisItem.Price,Describe:ThisItem.Description})+++
