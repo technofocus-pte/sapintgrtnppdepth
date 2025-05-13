@@ -361,56 +361,56 @@ ensuring accuracy and efficiency in operations.
 
 ```
 
-      {
-      "type": "AdaptiveCard",
+{
+"type": "AdaptiveCard",
 
-      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
 
-      "version": "1.3",
+"version": "1.3",
 
-      "body":[
+"body":[
 
-          {
-              "type": "Input.Text",
+    {
+        "type": "Input.Text",
 
-              "placeholder": "Placeholder text",
+        "placeholder": "Placeholder text",
 
-              "id": "1",
+        "id": "1",
 
-              "label": "Product ID"
+        "label": "Product ID"
 
-              },
+        },
 
-              {
+        {
 
-                  "type": "Input.Number",
+            "type": "Input.Number",
 
-                  "placeholder": "Placeholder text",
+            "placeholder": "Placeholder text",
 
-                  "id": "2",
+            "id": "2",
 
-                  "label": "Updated Price"
+            "label": "Updated Price"
 
-                  },
+            },
 
-                  {
-                      "type": "ActionSet",
+            {
+                "type": "ActionSet",
 
-                      "actions":
+                "actions":
 
-                      [
+                [
 
-                          {
+                    {
 
-                              "type": "Action.Submit",
+                        "type": "Action.Submit",
 
-                              "title": "Submit"
+                        "title": "Submit"
 
-                              }
-                              ]
-                              }
-                              ]
-                              }
+                        }
+                        ]
+                        }
+                        ]
+                        }
 
   ```
 
