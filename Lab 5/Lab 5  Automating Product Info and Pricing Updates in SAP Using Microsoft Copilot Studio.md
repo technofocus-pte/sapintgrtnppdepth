@@ -268,11 +268,11 @@ ensuring accuracy and efficiency in operations.
 5.  Click on the **Description** field and enter below given description
     in the field then click on the **Done** button.
 
-- > **Description:** +++Product Category. One of the following
-  > categories can be used. The name has to be exactly like this:
-  > Accessories, Notebooks, Laser Printers, Mice, Keyboards, Mousepads,
-  > Scanners, Speakers, Headsets, Software, PCs, Smartphones, Tablets,
-  > Servers, Projectors, MP3 Players, Camcorders.+++
+  **Description:** Product Category. One of the following
+  categories can be used. The name has to be exactly like this:
+  Accessories, Notebooks, Laser Printers, Mice, Keyboards, Mousepads,
+  Scanners, Speakers, Headsets, Software, PCs, Smartphones, Tablets,
+  Servers, Projectors, MP3 Players, Camcorders.
 
   ![](./media/image41.png)
 
@@ -281,12 +281,12 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image42.png)
 
-7.  Click on the Product Output and Enter the given below given
-    description and Then click on the **Done** button.
+7.  Click on the Product Output and Enter the following
+    Description and then click on the **Done** button.
 
-- > **Description:** +++List of SAP products for a provided product
-  > category. Return the result as table including following
-  > information: ProductID, Category, Name, Description and Price.+++
+  **Description:** List of SAP products for a provided product
+  category. Return the result as a table including the following
+  information: ProductID, Category, Name, Description and Price.
 
   ![](./media/image43.png)
 
@@ -351,7 +351,7 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image54.png)
 
-7.  Click on the three dots on adaptive card and click on the
+7.  Click on the Ellipsis icon (...) on the adaptive card and click on the
     **Properties**.
 
 - ![](./media/image55.png)
@@ -359,7 +359,7 @@ ensuring accuracy and efficiency in operations.
 8.  Click on the Edit adaptive card, Enter the below give code and then
     click on the Save and then Close button from top.
 
-- +++
+```
 
       {
       "type": "AdaptiveCard",
@@ -412,7 +412,7 @@ ensuring accuracy and efficiency in operations.
                               ]
                               }
 
-  +++
+  ```
 
   ![](./media/image56.png)
 
