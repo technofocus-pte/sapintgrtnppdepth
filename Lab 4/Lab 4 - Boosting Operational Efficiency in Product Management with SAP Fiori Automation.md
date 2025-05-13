@@ -739,7 +739,7 @@ execution.
 
 **Exercise 7: Test the Flow**
 
-1.  From the Main block, right-click on First Run Subflow and select Run from here.  
+1.  From the Main block, right-click on the **On block error** and select Run from here.  
 
     ![](./media/image99.png)
 
