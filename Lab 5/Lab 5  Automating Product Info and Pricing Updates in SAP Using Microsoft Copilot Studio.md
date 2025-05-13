@@ -416,8 +416,8 @@ ensuring accuracy and efficiency in operations.
 
   ![](./media/image56.png)
 
-9.  Below adaptive card output section is available, in output **section
-    1** variable click on select a variable and then click on the create
+9.  The below adaptive card output section is available in the output **section
+    1** Variable click on select a variable, and then click on the create
     new, a new variable **Var1** is created.
 
 - ![](./media/image57.png)
@@ -428,6 +428,8 @@ ensuring accuracy and efficiency in operations.
 
 11. Go to variable from the top and select all right-side check box for
     all variables.
+
+    **Note**: If the variable option is not visible, click on the ellipsis icon Next to Save button and then select **Variable**
 
 - ![](./media/image59.png)
 
