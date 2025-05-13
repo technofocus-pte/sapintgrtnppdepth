@@ -172,9 +172,9 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image21.png)
 
-13. Enter +++**Product Output**+++ as output name and then enter the +++
-    **string(body('Query_OData_entities'))** +++ as the expresion value
-    of the output with the help of function. click on the Add button
+13. Enter +++**Product Output**+++ as the output name and then enter the
+    +++string(body('Query_OData_entities'))+++ as the expression value
+    of the output with the help of a function. Click on the Add button
     after entering the output query.
 
 - ![](./media/image22.png)
