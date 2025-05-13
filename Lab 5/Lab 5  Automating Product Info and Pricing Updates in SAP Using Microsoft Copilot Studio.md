@@ -513,8 +513,8 @@ ensuring accuracy and efficiency in operations.
 - ![](./media/image75.png)
 
 7.  To confirm the updation, go to
-    +++https://sapes5.sapdevcenter.com/+++ , click on Fiori Launch,
-    **login** with your SAP User Id and Password, Click on **Manage
+    +++https://sapes5.sapdevcenter.com/+++, **login** with your SAP User Id and Password,, click on Fiori Launch,
+     Click on **Manage
     product**. Then in search bar type +++HT-1001+++ and then click go.
 
 - ![](./media/image76.png)
